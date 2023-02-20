@@ -4,9 +4,13 @@ A repository containing specifications of the Sovol SV06 3D printer parts.
 
 Please contribute by making a [pull-request](https://github.com/bassamanator/everything-sovol-sv06/pulls), creating an [issue](https://github.com/bassamanator/everything-sovol-sv06/issues), or starting a [discussion](https://github.com/bassamanator/everything-sovol-sv06/discussions).
 
-# Hotend
+To do:
 
-## SV06ZJB_V1.4
+- [ ] Add stepper motor information.
+
+## Hotend
+
+### SV06ZJB_V1.4
 
 <img src="./images/hotend-pcb-labelled.png" width="800" alt='Raspberry Pi'/>
 
