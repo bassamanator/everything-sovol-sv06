@@ -10,23 +10,7 @@ Please contribute by making a [pull-request](https://github.com/bassamanator/eve
 
 <img src="./images/hotend-pcb-labelled.png" width="800" alt='Raspberry Pi'/>
 
-## P3 - Coldend Fan
-
-## P2 - Extruder Motor
-
-## P4 - Heater Cartridge
-
-## P8 - Thermistor
-
-## P6 - Probe
-
-## P5 - Part Cooling Fan
-
-## P7 - ??Filament Sensor??  
-
-  
-
-| Label | Connection | PCB Connection | Other Connection | Other |
+| Label | Connection | PCB Connection | Other Connection | Other info |
 | ------------ | ----------- | ------------ | ----------- | ----------- |
 | P3           | Coldend fan      | JST 1.25mm 2-Pin |  |  |
 | P2           | Extruder motor   | JST 1.25mm 4-Pin | JST PH 2.0 6-Pin \**needs confirmation* | Cable length 12cm |
@@ -36,4 +20,7 @@ Please contribute by making a [pull-request](https://github.com/bassamanator/eve
 | P5           | Part cooling fan | JST 1.25mm 2-Pin |  |  |
 | P7           | ??Filament sensor??| JST 1.25mm 3-Pin |  |  |
 
+## Useful Resources
 
+- [*OSS* Sovol SV06 Klipper Configuration](https://github.com/bassamanator/Sovol-SV06-firmware/tree/master)
+- [RP2040-Zero ADXL345 Connection Klipper](https://github.com/bassamanator/rp2040-zero-adxl345-klipper)
