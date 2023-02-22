@@ -24,6 +24,11 @@ To do:
 | P5           | Part cooling fan | JST 1.25mm 2-Pin |  |  |
 | P7           | ??Filament sensor??| JST 1.25mm 3-Pin |  |  |
 
+## Motherboard
+
+<img src="./images/motherboard.png" width="800" alt='Raspberry Pi'/>
+
+
 ## Useful Resources
 
 - [*OSS* Sovol SV06 Klipper Configuration](https://github.com/bassamanator/Sovol-SV06-firmware/tree/master)
