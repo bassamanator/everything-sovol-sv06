@@ -28,6 +28,10 @@ To do:
 
 <img src="./images/motherboard.png" width="800" alt='Raspberry Pi'/>
 
+## Sovol Repositories
+
+- [Marlin source code](https://github.com/Sovol3d/Sv06-Source-Code)
+- [Printer parts STL and STEP files](https://github.com/Sovol3d/SV06-Fully-Open-Source)
 
 ## Useful Resources
 
