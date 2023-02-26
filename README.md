@@ -28,6 +28,12 @@ To do:
 
 <img src="./images/motherboard.png" width="800" alt='Raspberry Pi'/>
 
+## Lead Screws and Rods
+
+<img src="./images/Lead_screws_specs.PNG" width="800" alt='Raspberry Pi'/>
+
+<img src="./images/Rods_specs.PNG" width="800" alt='Raspberry Pi'/>
+
 ## Sovol Repositories
 
 - [Marlin source code](https://github.com/Sovol3d/Sv06-Source-Code)
