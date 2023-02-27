@@ -30,9 +30,19 @@ To do:
 
 ## Lead Screws and Rods
 
-<img src="./images/Lead_screws_specs.PNG" width="800" alt='Raspberry Pi'/>
+### Lead Screws (pitch=2mm, 2 starts, lead=4mm)
 
-<img src="./images/Rods_specs.PNG" width="800" alt='Raspberry Pi'/>
+| Item | Qty | Length (mm) | Dia. (mm) | Sovol Part # |
+| ------------ | ------------ | ------------ | ------------ | ------------ |
+| Z axis | 2 | 376 | 8 | JXHSV06-02003-a |
+
+### Linear Motion Guide Rods (hardened steel)
+
+| Item | Qty | Length (mm) | Dia. (mm) | Sovol Part # |
+| ------------ | ------------ | ------------ | ------------ | ------------ |
+| X axis | 2 | 350 | 8 | JXHSV06-03001-a |
+| Y axis | 2 | 340 | 8 | JXHSV06-01012-a |
+| Z axis | 2 | 400 | 8 | JXHSV06-02004-a |
 
 ## Sovol Repositories
 
