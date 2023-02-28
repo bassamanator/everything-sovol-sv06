@@ -7,6 +7,7 @@ Please contribute by making a [pull-request](https://github.com/bassamanator/eve
 To do:
 
 - [ ] Add stepper motor information.
+- [ ] Add Z coupler specs.
 
 ## Hotend
 
