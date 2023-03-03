@@ -8,6 +8,8 @@ To do:
 
 - [ ] Add stepper motor information.
 - [x] Add Z coupler specs.
+- [ ] Add heatblock specs.
+- [ ] Add heatbreak specs.
 
 ## Stay Up-to-Date
 
