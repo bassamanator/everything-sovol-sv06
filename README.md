@@ -62,6 +62,17 @@ This repository is a work in progress. Watch for updates:
 | - | - | - | - | - | - |
 | Rigid | 2 | 20mm | 25mm | 5mm | 8mm |
 
+## Heatblock
+
+| Height | Length | Thickness |
+| - | - | - |
+| 20mm | 20mm| 10mm|
+
+<img src="./images/20230304.SOVOL.SV06.00.jpg" width="100" alt='Heatblock spec'/>
+<img src="./images/20230304.SOVOL.SV06.01.jpg" width="100" alt='Heatblock spec'/>
+<img src="./images/20230304.SOVOL.SV06.02.jpg" width="100" alt='Heatblock spec'/>
+<img src="./images/20230304.SOVOL.SV06.03.jpg" width="100" alt='Heatblock spec'/>
+
 ## Sovol Repositories
 
 - [Marlin source code](https://github.com/Sovol3d/Sv06-Source-Code)
