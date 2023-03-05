@@ -73,6 +73,16 @@ This repository is a work in progress. Watch for updates:
 <img src="./images/20230304.SOVOL.SV06.02.jpg" width="100" alt='Heatblock spec'/>
 <img src="./images/20230304.SOVOL.SV06.03.jpg" width="100" alt='Heatblock spec'/>
 
+## Heatbreak
+
+| Length | Outer Dia. | Inner Dia. |
+| - | - | - |
+| 15mm | 7mm| 2mm|
+
+<img src="./images/20230305.SOVOL.SV06.08.jpg" width="100" alt='Heatbreak spec'/>
+<img src="./images/20230305.SOVOL.SV06.09.jpg" width="100" alt='Heatbreak spec'/>
+<img src="./images/20230305.SOVOL.SV06.10.jpg" width="100" alt='Heatbreak spec'/>
+
 ## Sovol Repositories
 
 - [Marlin source code](https://github.com/Sovol3d/Sv06-Source-Code)
