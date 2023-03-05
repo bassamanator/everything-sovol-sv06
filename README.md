@@ -75,13 +75,14 @@ This repository is a work in progress. Watch for updates:
 
 ## Heatbreak
 
-| Length | Outer Dia. | Inner Dia. |
-| - | - | - |
-| 15mm | 7mm| 2mm|
+| Cooper Length | Overal Length | Outer Dia. | Inner Dia. |
+| - | - | - | - |
+| 15mm | 22mm | 7mm| 2mm|
 
 <img src="./images/20230305.SOVOL.SV06.08.jpg" width="100" alt='Heatbreak spec'/>
 <img src="./images/20230305.SOVOL.SV06.09.jpg" width="100" alt='Heatbreak spec'/>
 <img src="./images/20230305.SOVOL.SV06.10.jpg" width="100" alt='Heatbreak spec'/>
+<img src="./images/20230305.SOVOL.SV06.11.jpg" width="100" alt='22mm'/>
 
 ## Sovol Repositories
 
