@@ -72,6 +72,7 @@ This repository is a work in progress. Watch for updates:
 <img src="./images/20230304.SOVOL.SV06.01.jpg" width="100" alt='Heatblock spec'/>
 <img src="./images/20230304.SOVOL.SV06.02.jpg" width="100" alt='Heatblock spec'/>
 <img src="./images/20230304.SOVOL.SV06.03.jpg" width="100" alt='Heatblock spec'/>
+<img src="./images/20230305.SOVOL.SV06.06.jpg" width="100" alt='It's looks like 13mm between the centers of the holes'/>
 
 ## Sovol Repositories
 
