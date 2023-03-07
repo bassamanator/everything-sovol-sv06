@@ -1,15 +1,21 @@
 # Everything Sovol SV06
 
-A repository containing specifications of the Sovol SV06 3D printer parts.
+A repository containing specifications of the Sovol SV06 3D printer parts, as well as links to aftermarket replacement parts.
 
-Please contribute by making a [pull-request](https://github.com/bassamanator/everything-sovol-sv06/pulls), creating an [issue](https://github.com/bassamanator/everything-sovol-sv06/issues), or starting a [discussion](https://github.com/bassamanator/everything-sovol-sv06/discussions).
+I have spent roughly CAD$80 on unusable parts in order to find aftermarket replacements for the SV06. Please consider buying me a [<img src="./misc/logo_white_stroke.png" height="20" alt='Ko-fi'/>](https://ko-fi.com/bassamanator). All funds raised will be used on this project.
 
-To do:
+You can also contribute by making a [pull-request](https://github.com/bassamanator/everything-sovol-sv06/pulls), creating an [issue](https://github.com/bassamanator/everything-sovol-sv06/issues), or starting a [discussion](https://github.com/bassamanator/everything-sovol-sv06/discussions).
+
+*Some of the links found on this page may be affiliate links.*
+
+## To do:
 
 - [ ] Add stepper motor information.
 - [x] Add Z coupler specs.
-- [ ] Complete heatblock specs.
-- [ ] Add heatbreak specs.
+- [x] Add heatblock specs.
+- [ ] Verify heatblock specs.
+- [x] Add heatbreak specs.
+- [ ] Add heater cartridge specs.
 
 ## Stay Up-to-Date
 
@@ -68,10 +74,32 @@ This repository is a work in progress. Watch for updates:
 | - | - | - |
 | 20mm | 20mm| 10mm|
 
-<img src="./images/20230304.SOVOL.SV06.00.jpg" width="100" alt='Heatblock spec'/>
-<img src="./images/20230304.SOVOL.SV06.01.jpg" width="100" alt='Heatblock spec'/>
-<img src="./images/20230304.SOVOL.SV06.02.jpg" width="100" alt='Heatblock spec'/>
-<img src="./images/20230304.SOVOL.SV06.03.jpg" width="100" alt='Heatblock spec'/>
+<img src="./images/heatblock/20230304.SOVOL.SV06.00.jpg" width="100" alt='Heatblock spec'/>
+<img src="./images/heatblock/20230304.SOVOL.SV06.01.jpg" width="100" alt='Heatblock spec'/>
+<img src="./images/heatblock/20230304.SOVOL.SV06.02.jpg" width="100" alt='Heatblock spec'/>
+<img src="./images/heatblock/20230304.SOVOL.SV06.03.jpg" width="100" alt='Heatblock spec'/>  
+
+<img src="./images/heatblock/heatblock-specs.png" width="500" alt='Heatblock spec'/>
+
+## Heatbreak
+
+<img src="./images/heatbreak/heatbreak.png" height="200" alt='Z coupler rigid 5mm to 8mm'/>
+
+| Cooper Portion | Overall Length | Outer Dia. | Inner Dia. |
+| - | - | - | - |
+| 15mm | 22mm | 7mm| 2mm|
+
+<img src="./images/heatbreak/copper-portion.jpg" width="100" alt='Heatbreak spec'/>
+<img src="./images/heatbreak/overall.jpg" width="100" alt='22mm'/>
+<img src="./images/heatbreak/od.jpg" width="100" alt='Heatbreak spec'/>
+
+#### Aftermarket Options
+
+I purchased and tested [this heatbreak](https://s.click.aliexpress.com/e/_DmzWJNb). It works as well as the stock piece.
+
+*The part sold in the link could change, so make sure it has the following specs*:
+
+<img src="./images/heatbreak/aftermarket-aliexpress.png" height="200" alt='Aftermarket heatbreak'/>
 
 ## Sovol Repositories
 
@@ -82,3 +110,5 @@ This repository is a work in progress. Watch for updates:
 
 - [*OSS* Sovol SV06 Klipper Configuration](https://github.com/bassamanator/Sovol-SV06-firmware/tree/master)
 - [RP2040-Zero ADXL345 Connection Klipper](https://github.com/bassamanator/rp2040-zero-adxl345-klipper)
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/H2H0HIHTH)
