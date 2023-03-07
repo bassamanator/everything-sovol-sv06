@@ -95,12 +95,29 @@ This repository is a work in progress. Watch for updates:
 
 #### Aftermarket Options
 
-I purchased and tested [this heatbreak](https://s.click.aliexpress.com/e/_DmzWJNb). It works as well as the stock piece.
+##### Heatbreaks
+ | Name/Link | User | SV06-Compatible | Notes |
+ | - | - | - | - |
+ | [MEGA 2pcs E3D Heat Break V6 Throat M6 M7 Thread Bi-metal For E3D V6 Hotend](https://s.click.aliexpress.com/e/_DmzWJNb)  | @bassamanator | Yes | Purchased and tested. It works as well as the stock piece.<br/>*The part sold in the link could change, so make sure it has the following specs*:<img src="./images/heatbreak/aftermarket-aliexpress.png" height="200" alt='Aftermarket heatbreak'/> |
+ | [2pcs Super Smooth Titanium Alloy Heatbreak](https://www.amazon.com/dp/B07JD2S4GK?ref=ppx_pop_mob_ap_share) | @transistor1 | Yes, with caveats | Purchased and tested.  It works, but it doesn't fit snugly into the extruder opening. At the time of writing, I have been using it for about 12 hours with no leaking. |
+ | [Sovol 3pcs Bi-metal Heatbreak](https://www.amazon.com/dp/B0BJDPS741?psc=1&ref=ppx_yo2ov_dt_b_product_details) | @transistor1 | **NO** | Tested. **DO NOT PURCHASE**; this is incompatible with the SV06's heatbreak.  Its outer diameter is too large. |
 
-*The part sold in the link could change, so make sure it has the following specs*:
+##### Heatblocks
+ | Name/Link | User | SV06-Compatible | Notes |
+ | - | - | - | - |
+ | [1-Pack High Temperature CR-10 Plated Copper Heater Block for MK8 Extruder](https://a.co/d/7dlSiH5) | @transistor1 | Yes, with caveats | Tested, but does not come with the correct screw size. Sovol SV06 extruder uses M2.5 machine screws (I believe 0.5mm pitch but not certain).  Stock screws are too short to use, so you must order some screws.  Suggestion in the Other section. |
+ 
+##### Thermistors/Heating Cartridges
+ | Name/Link | User | SV06-Compatible | Notes |
+ | - | - | - | - |
+ | [Sprite Extruder Pro Kit 300℃ Cartridge Heater 24V 40W + Thermistor NTC100K High Temperature Sensor](https://a.co/d/5lAXUmq) | @transistor1 | Yes, with caveats | The thermistor uses an XH1.25 JST connector, which fits the stock Sovol terminal, but the heating cartridge has an XH2.54 JST connector, which is not what the Sovol's extruder board accepts.  The extruder board uses a JST PHR-2 connector. There is a link to the connector in the Other section |
 
-<img src="./images/heatbreak/aftermarket-aliexpress.png" height="200" alt='Aftermarket heatbreak'/>
-
+##### Other
+ | Name/Link | User | SV06-Compatible | Notes |
+ | - | - | - | - |
+ | [Taiss 580PCS JST PH Connector kit 2.0mm 2/3/4/5/6Pin Housing,Female and Male Adapter Cable Connector](https://a.co/d/cfq421p) | @transistor1 | Yes | PHR-2 is the correct size for the SV06's heating cartridge. Requires a special crimping tool, but I was able to get the contacts on using a plier. |
+ | [Hexagon Hex Socket Head Cap Allen Bolt Screw](https://a.aliexpress.com/_mOp3Dhc) | @transistor1 | Unknown | Ordered 20mm. Not yet tested, but hoping this will fit the heat block. |
+ 
 ## Sovol Repositories
 
 - [Marlin source code](https://github.com/Sovol3d/Sv06-Source-Code)
