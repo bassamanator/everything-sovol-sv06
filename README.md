@@ -105,7 +105,7 @@ This repository is a work in progress. Watch for updates:
 ##### Heatblocks
  | Name/Link | User | SV06-Compatible | Notes |
  | - | - | - | - |
- | [1-Pack High Temperature CR-10 Plated Copper Heater Block for MK8 Extruder](https://a.co/d/7dlSiH5) | @transistor1 | Yes, with caveats | Tested, but does not come with the correct screw size. Sovol SV06 extruder uses M2.5 machine screws (I believe 0.5mm pitch but not certain).  Stock screws are too short to use, so you must order some screws.  Suggestion in the Other section. |
+ | [ChowThink 1-Pack High Temperature CR-10 Plated Copper Heater Block for MK8 Extruder](https://a.co/d/7dlSiH5) | @transistor1 | Yes, with caveats | Tested, but does not come with the correct screw size. Sovol SV06 extruder uses M2.5 machine screws (I believe 0.5mm pitch but not certain).  Stock screws are too short to use, so you must order some screws.  Suggestion in the Other section. |
  
 ##### Thermistors/Heating Cartridges
  | Name/Link | User | SV06-Compatible | Notes |
@@ -116,7 +116,7 @@ This repository is a work in progress. Watch for updates:
  | Name/Link | User | SV06-Compatible | Notes |
  | - | - | - | - |
  | [Taiss 580PCS JST PH Connector kit 2.0mm 2/3/4/5/6Pin Housing,Female and Male Adapter Cable Connector](https://a.co/d/cfq421p) | @transistor1 | Yes | PHR-2 is the correct size for the SV06's heating cartridge. Requires a special crimping tool, but I was able to get the contacts on using a plier. |
- | [Hexagon Hex Socket Head Cap Allen Bolt Screw](https://a.aliexpress.com/_mOp3Dhc) | @transistor1 | Unknown | Ordered 20mm. Not yet tested, but hoping this will fit the heat block. |
+ | [Hexagon Hex Socket Head Cap Allen Bolt Screw](https://a.aliexpress.com/_mOp3Dhc) | @transistor1 | Unknown | Ordered M2.5, 20mm length. Not yet tested, but hoping this will fit the ChowThink heat block. |
  
 ## Sovol Repositories
 
