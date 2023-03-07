@@ -70,20 +70,17 @@ This repository is a work in progress. Watch for updates:
 
 ## Heatblock
 
+<img src="./images/heatblock/heatblock-display.jpg" height="100" alt='Heatblock image'/>
+
 | Height | Length | Thickness |
 | - | - | - |
 | 20mm | 20mm| 10mm|
-
-<img src="./images/heatblock/20230304.SOVOL.SV06.00.jpg" width="100" alt='Heatblock spec'/>
-<img src="./images/heatblock/20230304.SOVOL.SV06.01.jpg" width="100" alt='Heatblock spec'/>
-<img src="./images/heatblock/20230304.SOVOL.SV06.02.jpg" width="100" alt='Heatblock spec'/>
-<img src="./images/heatblock/20230304.SOVOL.SV06.03.jpg" width="100" alt='Heatblock spec'/>  
 
 <img src="./images/heatblock/heatblock-specs.png" width="500" alt='Heatblock spec'/>
 
 ## Heatbreak
 
-<img src="./images/heatbreak/heatbreak.png" height="200" alt='Z coupler rigid 5mm to 8mm'/>
+<img src="./images/heatbreak/heatbreak.png" height="200" alt=''/>
 
 | Cooper Portion | Overall Length | Outer Dia. | Inner Dia. |
 | - | - | - | - |
