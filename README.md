@@ -15,7 +15,8 @@ You can also contribute by making a [pull-request](https://github.com/bassamanat
 - [x] Add heatblock specs.
 - [ ] Verify heatblock specs.
 - [x] Add heatbreak specs.
-- [ ] Add heater cartridge specs.
+- [ ] Add heater cartridge specs; no aftermarket source to be found.
+- [ ] Add thermistor specs and aftermarket [source](https://s.click.aliexpress.com/e/_DmxAvaV).
 
 ## Stay Up-to-Date
 
