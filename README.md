@@ -26,7 +26,7 @@ This repository is a work in progress. Watch for updates:
 
 ## Hotend
 
-### SV06ZJB_V1.4
+### PCB SV06ZJB_V1.4
 
 <img src="./images/hotend-pcb-labelled.png" width="800" alt='Hotend PCB'/>
 
@@ -38,7 +38,47 @@ This repository is a work in progress. Watch for updates:
 | P8 | Thermistor | JST 1.25mm 2-Pin |  |  |
 | P6 | Probe  | JST 1.25mm 5-Pin |  |  |
 | P5 | Part cooling fan | JST 1.25mm 2-Pin |  |  |
-| P7 | Filament sensor (*verified*)| JST 1.25mm 3-Pin |  |  |
+| P7 | Filament sensor | JST 1.25mm 3-Pin |  |  |
+
+### Filament Sensor
+
+I tested two random filament runout sensors that I had on hand. Both work just fine. It seems to me that any sensor with `VCC`, `Ground`, and `Signal` pins should work.
+
+In order to get the filament sensor working, just make sure that the `VCC`, `Ground`, and `Signal` line up with the pins on the hotend PCB, port `P7`.
+
+<img src="./images/fil-sensor/btt.jpg" width="800" alt='Filament sensor'/>
+<img src="./images/fil-sensor/simple.jpg" width="800" alt='Filament sensor'/>
+<img src="./images/fil-sensor/full.jpg" width="800" alt='Filament sensor'/>
+
+### Heatblock
+
+<img src="./images/heatblock/heatblock-display.jpg" height="100" alt='Heatblock image'/>
+
+| Height | Length | Thickness |
+| - | - | - |
+| 20mm | 20mm| 10mm|
+
+<img src="./images/heatblock/heatblock-specs.png" width="500" alt='Heatblock spec'/>
+
+### Heatbreak
+
+<img src="./images/heatbreak/heatbreak.png" height="200" alt=''/>
+
+| Cooper Portion | Overall Length | Outer Dia. | Inner Dia. |
+| - | - | - | - |
+| 15mm | 22mm | 7mm| 2mm|
+
+<img src="./images/heatbreak/copper-portion.jpg" width="100" alt='Heatbreak spec'/>
+<img src="./images/heatbreak/overall.jpg" width="100" alt='22mm'/>
+<img src="./images/heatbreak/od.jpg" width="100" alt='Heatbreak spec'/>
+
+#### Aftermarket Options
+
+I purchased and tested [this heatbreak](https://s.click.aliexpress.com/e/_DmzWJNb). It works as well as the stock piece.
+
+*The part sold in the link could change, so make sure it has the following specs*:
+
+<img src="./images/heatbreak/aftermarket-aliexpress.png" height="200" alt='Aftermarket heatbreak'/>
 
 ## Motherboard
 
@@ -64,40 +104,9 @@ This repository is a work in progress. Watch for updates:
 
 <img src="./images/z-coupler.png" width="100" alt='Z coupler rigid 5mm to 8mm'/>
 
-
 | Type | Qty | Dia.| Length | Motor Shaft Dia. | Lead Screw Dia. |
 | - | - | - | - | - | - |
 | Rigid | 2 | 20mm | 25mm | 5mm | 8mm |
-
-## Heatblock
-
-<img src="./images/heatblock/heatblock-display.jpg" height="100" alt='Heatblock image'/>
-
-| Height | Length | Thickness |
-| - | - | - |
-| 20mm | 20mm| 10mm|
-
-<img src="./images/heatblock/heatblock-specs.png" width="500" alt='Heatblock spec'/>
-
-## Heatbreak
-
-<img src="./images/heatbreak/heatbreak.png" height="200" alt=''/>
-
-| Cooper Portion | Overall Length | Outer Dia. | Inner Dia. |
-| - | - | - | - |
-| 15mm | 22mm | 7mm| 2mm|
-
-<img src="./images/heatbreak/copper-portion.jpg" width="100" alt='Heatbreak spec'/>
-<img src="./images/heatbreak/overall.jpg" width="100" alt='22mm'/>
-<img src="./images/heatbreak/od.jpg" width="100" alt='Heatbreak spec'/>
-
-#### Aftermarket Options
-
-I purchased and tested [this heatbreak](https://s.click.aliexpress.com/e/_DmzWJNb). It works as well as the stock piece.
-
-*The part sold in the link could change, so make sure it has the following specs*:
-
-<img src="./images/heatbreak/aftermarket-aliexpress.png" height="200" alt='Aftermarket heatbreak'/>
 
 ## Sovol Repositories
 
