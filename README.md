@@ -46,9 +46,15 @@ I tested two random filament runout sensors that I had on hand. Both work just f
 
 In order to get the filament sensor working, just make sure that the `VCC`, `Ground`, and `Signal` line up with the pins on the hotend PCB, port `P7`.
 
+The Klipper code to make this work can be found on my `personal` branch of the [OSS Klipper Configuration](https://github.com/bassamanator/Sovol-SV06-firmware/tree/master). *I only recommend that users use the `master` branch*. After enough testing, I will merge the filament sensor related code into the master branch.
+
 <img src="./images/fil-sensor/btt.jpg" width="800" alt='Filament sensor'/>
 <img src="./images/fil-sensor/simple.jpg" width="800" alt='Filament sensor'/>
 <img src="./images/fil-sensor/full.jpg" width="800" alt='Filament sensor'/>
+
+#### Aftermarket Options
+
+These can be found for very cheap (roughly $1.5) on Aliexpress and quite a bit more on  Amazon (though still very afforable). [This](https://s.click.aliexpress.com/e/_DDLpdBX) is the one I bought. Here's another seemingly [viable option](https://s.click.aliexpress.com/e/_DDPNmDX).
 
 ### Heatblock
 
