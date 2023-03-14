@@ -46,11 +46,24 @@ I tested two random filament runout sensors that I had on hand. Both work just f
 
 In order to get the filament sensor working, just make sure that the `VCC`, `Ground`, and `Signal` line up with the pins on the hotend PCB, port `P7`.
 
-The Klipper code to make this work can be found on my `personal` branch of the [OSS Klipper Configuration](https://github.com/bassamanator/Sovol-SV06-firmware/tree/master). *I only recommend that users use the `master` branch*. After enough testing, I will merge the filament sensor related code into the master branch.
+In order to 'mount' the sensor while it's not in use, simply glue a small magnet onto the sensor. You can then stick the sensor onto the extruder motor. You might also want to tether the sensor to the extruder cable with a piece of string.
+
+Klipper filament configuration section:
+```
+[filament_switch_sensor filament_sensor]
+switch_pin: !PA4 # "Pulled-high"
+pause_on_runout: True
+insert_gcode:
+    M117 Insert Detected
+runout_gcode:
+    M117 Runout Detected
+```
+
+The complete Klipper code to make this work can be found on my `personal` branch of the [OSS Klipper Configuration](https://github.com/bassamanator/Sovol-SV06-firmware/tree/master). *I only recommend that users use the `master` branch*. After enough testing, I will merge the filament sensor related code into the `master` branch.
 
 <img src="./images/fil-sensor/btt.jpg" width="800" alt='Filament sensor'/>
 <img src="./images/fil-sensor/simple.jpg" width="800" alt='Filament sensor'/>
-<img src="./images/fil-sensor/full.jpg" width="800" alt='Filament sensor'/>
+<img src="./images/fil-sensor/fil-sensor-side.jpg" width="800" alt='Filament sensor'/>
 
 #### Aftermarket Options
 
