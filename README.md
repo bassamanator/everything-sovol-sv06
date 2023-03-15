@@ -59,7 +59,7 @@ runout_gcode:
     M117 Runout Detected
 ```
 
-The complete Klipper code to make this work can be found on my `personal` branch of the [OSS Klipper Configuration](https://github.com/bassamanator/Sovol-SV06-firmware/tree/master). *I only recommend that users use the `master` branch*. After enough testing, I will merge the filament sensor related code into the `master` branch.
+The complete Klipper code to make this work is part of my [OSS Klipper Configuration](https://github.com/bassamanator/Sovol-SV06-firmware).
 
 <img src="./images/fil-sensor/btt.jpg" width="800" alt='Filament sensor'/>
 <img src="./images/fil-sensor/simple.jpg" width="800" alt='Filament sensor'/>
