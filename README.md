@@ -17,6 +17,7 @@ You can also contribute by making a [pull-request](https://github.com/bassamanat
 - [x] Add heatbreak specs.
 - [ ] Add heater cartridge specs; no aftermarket source to be found.
 - [ ] Add thermistor specs and aftermarket [source](https://s.click.aliexpress.com/e/_DmxAvaV).
+- [X] Add PSU related information.
 
 ## Stay Up-to-Date
 
@@ -129,6 +130,20 @@ I purchased and tested [this heatbreak](https://s.click.aliexpress.com/e/_DmzWJN
 | Type | Qty | Dia.| Length | Motor Shaft Dia. | Lead Screw Dia. |
 | - | - | - | - | - | - |
 | Rigid | 2 | 20mm | 25mm | 5mm | 8mm |
+
+## PSU Related
+
+<img src="./images/psu/psu-label.jpg" width='400px' alt=''/>
+
+### PSU Connections
+
+<img src="./images/psu/PSU-line-connections.png" alt=''/>
+
+### PSU Switch
+
+<img src="./images/psu/switch.png" alt=''/>
+<img src="./images/psu/switch-wiring.png" alt=''/>
+<img src="./images/psu/switch-wiring-alt.png" alt=''/>
 
 ## Sovol Repositories
 
