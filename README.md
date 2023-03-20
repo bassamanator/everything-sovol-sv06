@@ -81,6 +81,8 @@ You need to make your own cable. I recommend getting these [JST 1.25 cables](htt
 | - | - | - |
 | 20mm | 20mm| 10mm|
 
+*\*The specs in this picture need confirmation. Coming soon.*
+
 <img src="./images/heatblock/heatblock-specs.png" width="500" alt='Heatblock spec'/>
 
 ### Heatbreak
