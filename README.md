@@ -145,6 +145,12 @@ I purchased and tested [this heatbreak](https://s.click.aliexpress.com/e/_DmzWJN
 <img src="./images/psu/switch-wiring.png" alt=''/>
 <img src="./images/psu/switch-wiring-alt.png" alt=''/>
 
+### Other PSU Cable
+
+<img src="./images/psu/XT60H-M-1.jpg" width='200' alt=''/>
+<img src="./images/psu/XT60H-M-2.jpg" width='200' alt=''/>
+<img src="./images/psu/XT60H-M-3-edit.jpg" width='400' alt=''/>
+
 ## Sovol Repositories
 
 - [Marlin source code](https://github.com/Sovol3d/Sv06-Source-Code)
