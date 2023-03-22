@@ -101,12 +101,15 @@ Most CR10 heatblocks use a [glass-bead thermistor](https://en.wikipedia.org/wiki
 <br>
 Some people prefer the Thermistor Cartridge type thermistor because of it's higher durability, ease to use and a larger variety. But I have not found any CR10 heatblocks which support it, meaning the DIY method for supporting the cartridge thermistor would be to drill it with a 1/8 (3mm) drill bit.
 </details>
-<br>
 
 #### Aftermarket Options
 Aftermarket options include various items from [AliExpress](aliexpress.com) and [Ebay](ebay.com).
 
-[//]: <> (//todo Needs links to Aliexpress and Ebay sites)
+- [12v 40W Heater Cartridge](https://www.aliexpress.com/item/32817471679.html?spm=a2g0o.productlist.main.21.6c272d4aRvze4O&algo_pvid=3f654cbd-9ad6-4f5f-8673-d736c9e420ac&algo_exp_id=3f654cbd-9ad6-4f5f-8673-d736c9e420ac-10&pdp_ext_f=%7B%22sku_id%22%3A%2265398686104%22%7D&pdp_npi=3%40dis%21CAD%211.49%211.18%21%21%21%21%21%40212248ba16794819700476621d06d3%2165398686104%21sea%21CA%214666093930&curPageLogUid=lIXPchRUPLtg), requires JST connector crimping
+
+- [100k NTC-3950 Glass Bead Thermistor](https://www.aliexpress.com/item/1005004106475245.html?spm=a2g0o.productlist.main.87.206c68b2OAp8Jh&algo_pvid=e0345636-69a1-4676-bbd0-74733b733d18&algo_exp_id=e0345636-69a1-4676-bbd0-74733b733d18-43&pdp_ext_f=%7B%22sku_id%22%3A%2212000028053734600%22%7D&pdp_npi=3%40dis%21CAD%2111.44%215.72%21%21%21%21%21%40211bf2da16794820406441328d070e%2112000028053734600%21sea%21CA%214666093930&curPageLogUid=LCSf3U8ivtGH), requires JST connector crimping
+
+[//]: <> (//todo needs more links to Aliexpress and Ebay sites)
 
 ### Heatbreak
 
