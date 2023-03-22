@@ -75,8 +75,20 @@ These can be found for very cheap (roughly $1.5) on Aliexpress and quite a bit m
 You need to make your own cable. I recommend getting these [JST 1.25 cables](https://s.click.aliexpress.com/e/_DDORZ0D), and this [XH2.54 kit](https://s.click.aliexpress.com/e/_DlejPpj). You will also need a crimping tool such as the [Engineer PA-09](https://www.amazon.ca/gp/product/B002AVVO7K/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1).
 ### Heatblock
 
-The heatblock the SV06 uses is a Creality CR10 heatblock with support for an M6 threaded nozzle (including some MK8 nozzles). It has support for a [cartridge heater](https://www.aliexpress.com/item/32817471679.html?spm=a2g0o.productlist.main.21.398f5950SZin7w&algo_pvid=a02d1fa0-6027-439b-80b9-3dfd6d9066bf&algo_exp_id=a02d1fa0-6027-439b-80b9-3dfd6d9066bf-10&pdp_ext_f=%7B%22sku_id%22%3A%2265398686104%22%7D&pdp_npi=3%40dis%21CAD%211.49%211.18%21%21%21%21%21%40211bf3f116794791211837332d0761%2165398686104%21sea%21CA%214666093930&curPageLogUid=QZs3XELKua4B) (6mm) and a [glass-bead thermistor](https://www.aliexpress.com/item/32514751406.html?spm=a2g0o.productlist.main.13.4fc51vs51vs5FC&algo_pvid=4a9f6fcc-9db5-4db7-91e2-68112b03071e&aem_p4p_detail=202303220250351111396485568820005062336&algo_exp_id=4a9f6fcc-9db5-4db7-91e2-68112b03071e-6&pdp_ext_f=%7B%22sku_id%22%3A%2265732281353%22%7D&pdp_npi=3%40dis%21CAD%211.63%211.54%21%21%21%21%21%402102176616794786350847201d0767%2165732281353%21sea%21CA%214666093930&curPageLogUid=ShRbt8qZkw2q&ad_pvid=202303220250351111396485568820005062336_7&ad_pvid=202303220250351111396485568820005062336_7) (2mm). The heatblocks on AliExpress normally come in Brass, Copper Plated and Aluminum. Copper plated offers the best thermal conductivity of all of them which makes it the better option.
+The heatblock the SV06 uses is a Creality CR10 heatblock with support for an MK8 threaded nozzle (including some M6 nozzles). It has support for a [cartridge heater](https://www.aliexpress.com/item/32817471679.html?spm=a2g0o.productlist.main.21.398f5950SZin7w&algo_pvid=a02d1fa0-6027-439b-80b9-3dfd6d9066bf&algo_exp_id=a02d1fa0-6027-439b-80b9-3dfd6d9066bf-10&pdp_ext_f=%7B%22sku_id%22%3A%2265398686104%22%7D&pdp_npi=3%40dis%21CAD%211.49%211.18%21%21%21%21%21%40211bf3f116794791211837332d0761%2165398686104%21sea%21CA%214666093930&curPageLogUid=QZs3XELKua4B) (6mm) and a [glass-bead thermistor](https://www.aliexpress.com/item/32514751406.html?spm=a2g0o.productlist.main.13.4fc51vs51vs5FC&algo_pvid=4a9f6fcc-9db5-4db7-91e2-68112b03071e&aem_p4p_detail=202303220250351111396485568820005062336&algo_exp_id=4a9f6fcc-9db5-4db7-91e2-68112b03071e-6&pdp_ext_f=%7B%22sku_id%22%3A%2265732281353%22%7D&pdp_npi=3%40dis%21CAD%211.63%211.54%21%21%21%21%21%402102176616794786350847201d0767%2165732281353%21sea%21CA%214666093930&curPageLogUid=ShRbt8qZkw2q&ad_pvid=202303220250351111396485568820005062336_7&ad_pvid=202303220250351111396485568820005062336_7) (2mm). The heatblocks on AliExpress normally come in Brass, Copper Plated and Aluminum. Copper plated offers the best thermal conductivity of all of them which makes it the better option.
 
+<details>
+<summary>How to use a M6 Nozzle instead of MK8</summary>
+<br>
+The threading for both the MK8 and the M6 is the same although the M6 may be taller in height. I currently use a Tungsten Carbide M6 Nozzle with my SV06 printer and some of the issues I've ran into is, over-tightening and the silicone sock not fitting well. 
+<br>
+The over-tightening issues can be solved by putting in the nozzle while the extruder is very hot (300C) and by tightening slower and using less force.
+
+<br>
+A MK10 Silicone sock might fit better than the stock MK8 sock for a M6 nozzle but I have yet to try.
+<img src="./images/heatblock/MK10 Silicone Sock.jpg" height="130" alt='Heatblock MK10 Sock' align="center"/>
+
+</details>
 
 <p align="center">
 <img src="./images/heatblock/heatblock-display.jpg" height="130" alt='Heatblock image'/>
