@@ -75,15 +75,38 @@ These can be found for very cheap (roughly $1.5) on Aliexpress and quite a bit m
 You need to make your own cable. I recommend getting these [JST 1.25 cables](https://s.click.aliexpress.com/e/_DDORZ0D), and this [XH2.54 kit](https://s.click.aliexpress.com/e/_DlejPpj). You will also need a crimping tool such as the [Engineer PA-09](https://www.amazon.ca/gp/product/B002AVVO7K/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1).
 ### Heatblock
 
-<img src="./images/heatblock/heatblock-display.jpg" height="100" alt='Heatblock image'/>
+The heatblock the SV06 uses is a Creality CR10 heatblock with support for an M6 threaded nozzle (including some MK8 nozzles). It has support for a [cartridge heater](https://www.aliexpress.com/item/32817471679.html?spm=a2g0o.productlist.main.21.398f5950SZin7w&algo_pvid=a02d1fa0-6027-439b-80b9-3dfd6d9066bf&algo_exp_id=a02d1fa0-6027-439b-80b9-3dfd6d9066bf-10&pdp_ext_f=%7B%22sku_id%22%3A%2265398686104%22%7D&pdp_npi=3%40dis%21CAD%211.49%211.18%21%21%21%21%21%40211bf3f116794791211837332d0761%2165398686104%21sea%21CA%214666093930&curPageLogUid=QZs3XELKua4B) (6mm) and a [glass-bead thermistor](https://www.aliexpress.com/item/32514751406.html?spm=a2g0o.productlist.main.13.4fc51vs51vs5FC&algo_pvid=4a9f6fcc-9db5-4db7-91e2-68112b03071e&aem_p4p_detail=202303220250351111396485568820005062336&algo_exp_id=4a9f6fcc-9db5-4db7-91e2-68112b03071e-6&pdp_ext_f=%7B%22sku_id%22%3A%2265732281353%22%7D&pdp_npi=3%40dis%21CAD%211.63%211.54%21%21%21%21%21%402102176616794786350847201d0767%2165732281353%21sea%21CA%214666093930&curPageLogUid=ShRbt8qZkw2q&ad_pvid=202303220250351111396485568820005062336_7&ad_pvid=202303220250351111396485568820005062336_7) (2mm). The heatblocks on AliExpress normally come in Brass, Copper Plated and Aluminum. Copper plated offers the best thermal conductivity of all of them which makes it the better option.
+
+
+<p align="center">
+<img src="./images/heatblock/heatblock-display.jpg" height="130" alt='Heatblock image'/>
 
 | Height | Length | Thickness |
 | - | - | - |
 | 20mm | 20mm| 10mm|
 
-*\*The specs in this picture need confirmation. Coming soon.*
-
 <img src="./images/heatblock/heatblock-specs.png" width="500" alt='Heatblock spec'/>
+
+</p>
+
+#### Heater Cartridge
+The SV06 uses a ceramic heater cartridge which is 40W 12v *(needs looking into)*. It has a [JST-PH 2-pin connector](https://www.aliexpress.com/item/32908472053.html?spm=a2g0o.productlist.main.27.34a07842VA0u0U&algo_pvid=56fd3a56-ea45-49a0-97aa-151e49fb898e&algo_exp_id=56fd3a56-ea45-49a0-97aa-151e49fb898e-13&pdp_ext_f=%7B%22sku_id%22%3A%2265895534505%22%7D&pdp_npi=3%40dis%21CAD%212.89%212.89%21%21%21%21%21%40211bea6216794812702558054d06fe%2165895534505%21sea%21CA%214666093930&curPageLogUid=KEzsCq1b9bZr) to be used with the SV06 PCB. The heater cartridge usually has some thermal paste on it to help with heat transfer, any thermal paste will work.
+
+
+#### Thermistor Glass-Bead
+Most CR10 heatblocks use a [glass-bead thermistor](https://en.wikipedia.org/wiki/Thermistor) with the resistence of the thermistor getting higher as the tempeture increases. The thermistor size that is supported with the stock heatblock is 2mm in diameter which is what the glass bead thermistor uses. The stock thermistor has a [JST 1.25mm 2-pin](https://www.aliexpress.com/item/1005004931013896.html?spm=a2g0o.cart.0.0.6fac38da0aHMsB&mp=1) connector to connect to the PCB.
+
+<details>
+<summary>Cartridge Thermistor DIY</summary>
+<br>
+Some people prefer the Thermistor Cartridge type thermistor because of it's higher durability, ease to use and a larger variety. But I have not found any CR10 heatblocks which support it, meaning the DIY method for supporting the cartridge thermistor would be to drill it with a 1/8 (3mm) drill bit.
+</details>
+<br>
+
+#### Aftermarket Options
+Aftermarket options include various items from [AliExpress](aliexpress.com) and [Ebay](ebay.com).
+
+[//]: <> (//todo Needs links to Aliexpress and Ebay sites)
 
 ### Heatbreak
 
