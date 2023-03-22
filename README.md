@@ -102,7 +102,7 @@ A MK10 Silicone sock might fit better than the stock MK8 sock for a M6 nozzle bu
 </p>
 
 #### Heater Cartridge
-The SV06 uses a ceramic heater cartridge which is 40W 12v *(needs looking into)*. It has a [JST-PH 2-pin connector](https://www.aliexpress.com/item/32908472053.html?spm=a2g0o.productlist.main.27.34a07842VA0u0U&algo_pvid=56fd3a56-ea45-49a0-97aa-151e49fb898e&algo_exp_id=56fd3a56-ea45-49a0-97aa-151e49fb898e-13&pdp_ext_f=%7B%22sku_id%22%3A%2265895534505%22%7D&pdp_npi=3%40dis%21CAD%212.89%212.89%21%21%21%21%21%40211bea6216794812702558054d06fe%2165895534505%21sea%21CA%214666093930&curPageLogUid=KEzsCq1b9bZr) to be used with the SV06 PCB. The heater cartridge usually has some thermal paste on it to help with heat transfer, any thermal paste will work.
+The SV06 uses a [ceramic heater cartridge](https://www.aliexpress.com/item/1005005047050454.html?aff_fcid=13a72aaa124143d295f16d8f9d9296f5-1679483633001-07248-_DmxAvaV&tt=CPS_NORMAL&aff_fsk=_DmxAvaV&aff_platform=shareComponent-detail&sk=_DmxAvaV&aff_trace_key=13a72aaa124143d295f16d8f9d9296f5-1679483633001-07248-_DmxAvaV&terminal_id=14335827c6f74dbb82cd02956949dfb7&afSmartRedirect=y) which is 40W 24v. It has a [JST-PH 2-pin connector](https://www.aliexpress.com/item/32908472053.html?spm=a2g0o.productlist.main.27.34a07842VA0u0U&algo_pvid=56fd3a56-ea45-49a0-97aa-151e49fb898e&algo_exp_id=56fd3a56-ea45-49a0-97aa-151e49fb898e-13&pdp_ext_f=%7B%22sku_id%22%3A%2265895534505%22%7D&pdp_npi=3%40dis%21CAD%212.89%212.89%21%21%21%21%21%40211bea6216794812702558054d06fe%2165895534505%21sea%21CA%214666093930&curPageLogUid=KEzsCq1b9bZr) to be used with the SV06 PCB. The heater cartridge usually has some thermal paste on it to help with heat transfer, any thermal paste will work.
 
 
 #### Thermistor Glass-Bead
