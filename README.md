@@ -104,15 +104,38 @@ A MK10 Silicone sock might fit better than the stock MK8 sock for a M6 nozzle bu
 #### Heater Cartridge
 The SV06 uses a [ceramic heater cartridge](https://www.aliexpress.com/item/1005005047050454.html?aff_fcid=13a72aaa124143d295f16d8f9d9296f5-1679483633001-07248-_DmxAvaV&tt=CPS_NORMAL&aff_fsk=_DmxAvaV&aff_platform=shareComponent-detail&sk=_DmxAvaV&aff_trace_key=13a72aaa124143d295f16d8f9d9296f5-1679483633001-07248-_DmxAvaV&terminal_id=14335827c6f74dbb82cd02956949dfb7&afSmartRedirect=y) which is 40W 24v. It has a [JST-PH 2-pin connector](https://www.aliexpress.com/item/32908472053.html?spm=a2g0o.productlist.main.27.34a07842VA0u0U&algo_pvid=56fd3a56-ea45-49a0-97aa-151e49fb898e&algo_exp_id=56fd3a56-ea45-49a0-97aa-151e49fb898e-13&pdp_ext_f=%7B%22sku_id%22%3A%2265895534505%22%7D&pdp_npi=3%40dis%21CAD%212.89%212.89%21%21%21%21%21%40211bea6216794812702558054d06fe%2165895534505%21sea%21CA%214666093930&curPageLogUid=KEzsCq1b9bZr) to be used with the SV06 PCB. The heater cartridge usually has some thermal paste on it to help with heat transfer, any thermal paste will work.
 
+<details>
+<summary>Removing the Heater Cartridge</summary>
 
-#### Thermistor Glass-Bead
-Most CR10 heatblocks use a [glass-bead thermistor](https://en.wikipedia.org/wiki/Thermistor) with the resistence of the thermistor getting higher as the tempeture increases. The thermistor size that is supported with the stock heatblock is 2mm in diameter which is what the glass bead thermistor uses. The stock thermistor has a [JST 1.25mm 2-pin](https://www.aliexpress.com/item/1005004931013896.html?spm=a2g0o.cart.0.0.6fac38da0aHMsB&mp=1) connector to connect to the PCB.
+Removing the heater cartridge can actually be a challange as the ones stock from the factory may have hardened thermal paste or glue in it. Most people suggest  either powering the 2 heater wires using the SV06 unit (or using a computer PSU's molex cable) or using a heatgun. Then using pliers to pull one side and push the other to slide it out. It can be tricky and for my first time it took me 15 minutes.
+
+</details>
+
+<br>
 
 <details>
-<summary>Cartridge Thermistor DIY</summary>
+<summary>Heater Cartridge Mounting System</summary>
+
+The heater cartridge mounts using 2 [SHCS](https://www.homedepot.com/b/Hardware-Fasteners-Screws-Socket-Head-Cap-Screws/N-5yc1vZc2cy) M2.5 12mm screws which mount the heatblock to the rest of the extruder assembly. Your able to order longer screws by going with either [14mm long or 18mm](https://www.aliexpress.com/item/4000896301219.html?spm=a2g0o.order_list.order_list_main.42.76761802YH6B5B) long screws. Ensure the screws are not for wood as wood screws usually have a pointed end.
+
+</details>
+
 <br>
+
+#### Glass-Bead Thermistor
+Most CR10 heatblocks use a [glass-bead thermistor](https://en.wikipedia.org/wiki/Thermistor) with the resistence of the thermistor getting higher as the tempeture increases. The thermistor size that is supported with the stock heatblock is 2mm in diameter which is what the glass bead thermistor uses. The stock thermistor has a [JST 1.25mm 2-pin](https://www.aliexpress.com/item/1005004931013896.html?spm=a2g0o.cart.0.0.6fac38da0aHMsB&mp=1) connector to connect to the PCB. You can also choose to replace it with the more popular, cartridge thermistor below but it will require a drill.
+<br>
+
+<details>
+<summary>Cartridge Thermistor DIY Replacement</summary>
+
+The tiny wires on the stock thermistor make it easy to break and replacing the entire hotend unit is neither cost effective or friendly for the enviornment. If you have some time on your hands replacing the thermistor and/or heater is a way to reuse the heatblock.
+
+<br>
+
 Some people prefer the Thermistor Cartridge type thermistor because of it's higher durability, ease to use and a larger variety. But I have not found any CR10 heatblocks which support it, meaning the DIY method for supporting the cartridge thermistor would be to drill it with a 1/8 (3mm) drill bit.
 </details>
+<br>
 
 #### Aftermarket Options
 Aftermarket options include various items from [AliExpress](aliexpress.com) and [Ebay](ebay.com).
@@ -120,6 +143,8 @@ Aftermarket options include various items from [AliExpress](aliexpress.com) and 
 - [12v 40W Heater Cartridge](https://www.aliexpress.com/item/32817471679.html?spm=a2g0o.productlist.main.21.6c272d4aRvze4O&algo_pvid=3f654cbd-9ad6-4f5f-8673-d736c9e420ac&algo_exp_id=3f654cbd-9ad6-4f5f-8673-d736c9e420ac-10&pdp_ext_f=%7B%22sku_id%22%3A%2265398686104%22%7D&pdp_npi=3%40dis%21CAD%211.49%211.18%21%21%21%21%21%40212248ba16794819700476621d06d3%2165398686104%21sea%21CA%214666093930&curPageLogUid=lIXPchRUPLtg), requires JST connector crimping
 
 - [100k NTC-3950 Glass Bead Thermistor](https://www.aliexpress.com/item/1005004106475245.html?spm=a2g0o.productlist.main.87.206c68b2OAp8Jh&algo_pvid=e0345636-69a1-4676-bbd0-74733b733d18&algo_exp_id=e0345636-69a1-4676-bbd0-74733b733d18-43&pdp_ext_f=%7B%22sku_id%22%3A%2212000028053734600%22%7D&pdp_npi=3%40dis%21CAD%2111.44%215.72%21%21%21%21%21%40211bf2da16794820406441328d070e%2112000028053734600%21sea%21CA%214666093930&curPageLogUid=LCSf3U8ivtGH), requires JST connector crimping
+
+- [JST Connector for Thermistor wiring and more](https://www.aliexpress.com/item/1005004931013896.html?spm=a2g0o.order_list.order_list_main.21.76761802YH6B5B)
 
 [//]: <> (//todo needs more links to Aliexpress and Ebay sites)
 
