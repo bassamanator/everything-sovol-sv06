@@ -2,6 +2,8 @@
 
 A repository containing specifications of the Sovol SV06 3D printer parts, as well as links to aftermarket replacement parts.
 
+You can assume that all information herein is accurate unless stated otherwise.
+
 Besides many hours, I have spent roughly ~~CAD$80~~ CAD$85 on unusable parts in order to find aftermarket replacements for the SV06. If you found this work useful, please consider buying me a [<img src="./misc/logo_white_stroke.png" height="20" alt='Ko-fi'/>](https://ko-fi.com/bassamanator).
 
 You can also contribute by making a [pull-request](https://github.com/bassamanator/everything-sovol-sv06/pulls), creating an [issue](https://github.com/bassamanator/everything-sovol-sv06/issues), or starting a [discussion](https://github.com/bassamanator/everything-sovol-sv06/discussions).
@@ -13,10 +15,11 @@ You can also contribute by making a [pull-request](https://github.com/bassamanat
 - [ ] Add stepper motor information.
 - [x] Add Z coupler specs.
 - [x] Add heatblock specs.
-- [ ] Verify heatblock specs.
+- [x] Verify heatblock specs.
 - [x] Add heatbreak specs.
-- [ ] Add heater cartridge specs; no aftermarket source to be found.
-- [ ] Add thermistor specs and aftermarket [source](https://s.click.aliexpress.com/e/_DmxAvaV).
+- [x] Add heater cartridge specs; no direct aftermarket source is possible.
+- [x] Add thermistor specs.
+- [ ] Add thermistor direct replacement aftermarket [option](https://s.click.aliexpress.com/e/_DmxAvaV).
 - [X] Add PSU related information.
 
 ## Stay Up-to-Date
@@ -70,7 +73,7 @@ The complete Klipper code to make this work is part of my [OSS Klipper Configura
 
 These can be found for very cheap (roughly $1.5) on Aliexpress and quite a bit more on  Amazon (though still very afforable). [This](https://s.click.aliexpress.com/e/_DDLpdBX) is the one I bought. Here's another seemingly [viable option](https://s.click.aliexpress.com/e/_DDPNmDX).
 
-##### How To Cable
+#### How To Cable
 
 You need to make your own cable. I recommend getting these [JST 1.25 cables](https://s.click.aliexpress.com/e/_DDORZ0D), and this [XH2.54 kit](https://s.click.aliexpress.com/e/_DlejPpj). You will also need a crimping tool such as the [Engineer PA-09](https://www.amazon.ca/gp/product/B002AVVO7K/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1).
 ### Heatblock
@@ -93,11 +96,51 @@ A MK10 Silicone sock might fit better than the stock MK8 sock for a M6 nozzle bu
 <p align="center">
 <img src="./images/heatblock/heatblock-display.jpg" height="130" alt='Heatblock image'/>
 
-| Height | Length | Thickness |
-| - | - | - |
-| 20mm | 20mm| 10mm|
+The SV06 uses a Creality CR10 heatblock which supports MK8 threaded nozzles (including some M6 nozzles). The material is likely nickel-plated copper (*needs verification*).
 
+The heatblock is mounted onto the extruder assembly using 2 x M2.5 10mm [SHCS](./images/shcs.png).
+
+<p align="center">
 <img src="./images/heatblock/heatblock-specs.png" width="500" alt='Heatblock spec'/>
+</p>
+
+Please see some more relevant details [here](heatblock.md).
+
+#### Aftermarket Options
+
+*Coming soon.*
+
+### Heater Cartridge
+
+The SV06 uses a ceramic heater cartridge.
+
+| Voltage | Watts | Dimensions | Connection | Cable Length |
+| - | - | - | - | - |
+| 24V | 40W | 6x20mm | JST PH 2.0 2-Pin | ~40mm |
+
+The heater cartridge is glued into the heatblock, a heatblock that heats to 300C. Although possible, it is unadvisable, and potentially dangerous to attempt removal. 
+
+#### Aftermarket Options
+
+Unfortunately, a direct, non-DIY replacement seems unlikely. It appears that no one sells heater cartridges with JST PH 2.0 2-Pin connectors.
+
+You would have to buy a heater cartridge such as [this](https://s.click.aliexpress.com/e/_DeKbxqv), and crimp the appropriate connector on. 
+
+⚠️ Caveat: This is not an ordinary crimp job. The hotend assembly consumes a lot of power and is dangerously hot. Take every precaution.
+
+### Thermistor
+
+The SV06 uses a glass-bead thermistor.
+
+| Material | Dimensions | Connection | Cable Length |
+| - | - | - | - |
+| Glass | 2mm | JST 1.25mm 2-Pin | ~40mm |
+
+As was the case with the heater cartridge, the thermistor is also glued into place, and is very unlikely to survive removal given the delicacy of the cables and composing material.
+
+#### Aftermarket Options
+
+*Coming soon.*
 
 </p>
 
