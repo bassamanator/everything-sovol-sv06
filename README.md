@@ -187,6 +187,8 @@ Aftermarket options include various items from [AliExpress](aliexpress.com) and 
 
 - [100k NTC-3950 Glass Bead Thermistor](https://www.aliexpress.com/item/1005004106475245.html?spm=a2g0o.productlist.main.87.206c68b2OAp8Jh&algo_pvid=e0345636-69a1-4676-bbd0-74733b733d18&algo_exp_id=e0345636-69a1-4676-bbd0-74733b733d18-43&pdp_ext_f=%7B%22sku_id%22%3A%2212000028053734600%22%7D&pdp_npi=3%40dis%21CAD%2111.44%215.72%21%21%21%21%21%40211bf2da16794820406441328d070e%2112000028053734600%21sea%21CA%214666093930&curPageLogUid=LCSf3U8ivtGH), requires JST connector crimping
 
+- [NTC3950 thermistor](https://www.aliexpress.com/item/4000119163065.html?aff_fcid=16d7a9eda7874192a566e354ac56c563-1680055642647-09915-_DCq3Ym5&tt=CPS_NORMAL&aff_fsk=_DCq3Ym5&aff_platform=shareComponent-detail&sk=_DCq3Ym5&aff_trace_key=16d7a9eda7874192a566e354ac56c563-1680055642647-09915-_DCq3Ym5&terminal_id=14335827c6f74dbb82cd02956949dfb7&afSmartRedirect=y), requires JST connector crimping.
+
 - [JST Connector for Thermistor wiring and more](https://www.aliexpress.com/item/1005004931013896.html?spm=a2g0o.order_list.order_list_main.21.76761802YH6B5B)
 
 [//]: <> (//todo needs more links to Aliexpress and Ebay sites)
