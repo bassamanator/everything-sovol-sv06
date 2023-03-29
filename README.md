@@ -162,7 +162,7 @@ I purchased and tested [this heatbreak](https://s.click.aliexpress.com/e/_DmzWJN
 
 | Axis | Qty | Length | Dia. | Sovol Part # |
 | - | - | - | - | - |
-| X | 2 | 350mm | 8mm | JXHSV06-03001-a |
+| X | 2 | 355mm | 8mm | JXHSV06-03001-a |
 | Y | 2 | 340mm | 8mm | JXHSV06-01012-a |
 | Z | 2 | 400mm | 8mm | JXHSV06-02004-a |
 
