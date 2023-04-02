@@ -10,18 +10,6 @@ You can also contribute by making a [pull-request](https://github.com/bassamanat
 
 *Some of the links found on this page may be affiliate links.*
 
-## To do:
-
-- [ ] Add stepper motor information.
-- [x] Add Z coupler specs.
-- [x] Add heatblock specs.
-- [x] Verify heatblock specs.
-- [x] Add heatbreak specs.
-- [x] Add heater cartridge specs; no direct aftermarket source is possible.
-- [x] Add thermistor specs.
-- [ ] Add thermistor direct replacement aftermarket [option](https://s.click.aliexpress.com/e/_DmxAvaV).
-- [X] Add PSU related information.
-
 ## Stay Up-to-Date
 
 This repository is a work in progress. Watch for updates:
