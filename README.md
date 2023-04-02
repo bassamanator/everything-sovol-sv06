@@ -28,6 +28,13 @@ This repository is a work in progress. Watch for updates:
 
 <img src="./images/githubstar.gif" width="500" alt='Github star'/>
 
+## Sections
+
+1. [Hotend](README.md/#hotend)
+2. [Motherboard](README.md/#motherboard)
+3. [Lead Screws and Rods](README.md/#lead-screws-and-rods)
+4. [PSU Related](README.md/#psu-related)
+
 ## Hotend
 
 ### PCB SV06ZJB_V1.4
@@ -166,7 +173,7 @@ I purchased and tested [this heatbreak](https://s.click.aliexpress.com/e/_DmzWJN
 | Y | 2 | 340mm | 8mm | JXHSV06-01012-a |
 | Z | 2 | 400mm | 8mm | JXHSV06-02004-a |
 
-## Z Axis Couplers
+### Z Axis Couplers
 
 <img src="./images/z-coupler.png" width="100" alt='Z coupler rigid 5mm to 8mm'/>
 
@@ -189,6 +196,10 @@ I purchased and tested [this heatbreak](https://s.click.aliexpress.com/e/_DmzWJN
 <img src="./images/psu/switch-wiring-alt.png" alt=''/>
 
 ### Other PSU Cable
+
+| Part |
+| - |
+| XT60H-M |
 
 <img src="./images/psu/XT60H-M-1.jpg" width='200' alt=''/>
 <img src="./images/psu/XT60H-M-2.jpg" width='200' alt=''/>
