@@ -34,7 +34,7 @@ This repository is a work in progress. Watch for updates:
 2. [Motherboard](#motherboard)
 3. [Lead Screws and Rods](#lead-screws-and-rods)
 4. [PSU Related](#psu-related)
-5. [Useful Parts](./parts/useful_parts.md)
+5. [Useful Parts](./parts/README.md)
 
 ## Hotend
 
