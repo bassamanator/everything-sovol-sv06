@@ -30,10 +30,10 @@ This repository is a work in progress. Watch for updates:
 
 ## Sections
 
-1. [Hotend](README.md/#hotend)
-2. [Motherboard](README.md/#motherboard)
-3. [Lead Screws and Rods](README.md/#lead-screws-and-rods)
-4. [PSU Related](README.md/#psu-related)
+1. [Hotend](#hotend)
+2. [Motherboard](#motherboard)
+3. [Lead Screws and Rods](#lead-screws-and-rods)
+4. [PSU Related](#psu-related)
 
 ## Hotend
 
