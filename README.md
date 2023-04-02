@@ -16,13 +16,21 @@ This repository is a work in progress. Watch for updates:
 
 <img src="./images/githubstar.gif" width="500" alt='Github star'/>
 
-## Outline
+# Outline
 
 1. [Hotend](#hotend)
+    1. [PCB](#pcb-sv06zjb_v14)
+    2. [Filament Sensor](#filament-sensor)
+    3. [Heatblock](#heatblock)
+        1. [Heater Cartridge](#heater-cartridge)
+        2. [Thermistor](#thermistor)
+        3. [Heatbreak](#heatbreak)
+    4. *Fans*
+    5. *Probe*
 2. [Motherboard](#motherboard)
 3. [Lead Screws and Rods](#lead-screws-and-rods)
 4. [PSU Related](#psu-related)
-5. [Useful Parts](./parts/README.md)
+5. [Useful Prints](./parts/README.md)
 
 ## Hotend
 
