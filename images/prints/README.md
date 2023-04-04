@@ -1,4 +1,7 @@
 # Random Prints
+<img src="./octahedroflake1.jpg"/>
+<img src="./octahedroflake2.jpg"/>
+<img src="./octahedroflake3.jpg"/>
 <img src="./thinker-galaxy-blue.jpg"/>
 <img src="./calidragon.jpg"/>
 <img src="./squirtle1.jpg"/>
