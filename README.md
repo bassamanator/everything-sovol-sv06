@@ -41,7 +41,7 @@ This repository is a work in progress. Watch for updates:
 | Label | Connection | PCB Connection | Other Connection | Other info |
 | - | - | - | - | - |
 | P3 | Coldend fan | JST 1.25mm 2-Pin |  |  |
-| P2 | Extruder motor | JST 1.25mm 4-Pin | JST PH 2.0 6-Pin (*needs confirmation*) | Cable length 12cm |
+| P2 | Extruder motor | JST 1.25mm 4-Pin | JST PH 2.0 6-Pin | Cable length 12cm |
 | P4 | Heater cartridge | JST PH 2.0 2-Pin |  |  |
 | P8 | Thermistor | JST 1.25mm 2-Pin |  |  |
 | P6 | Probe  | JST 1.25mm 5-Pin |  |  |
