@@ -200,7 +200,7 @@ I purchased and tested [this heatbreak](https://s.click.aliexpress.com/e/_DmzWJN
 
 | Part |
 | - |
-| XT60H-M |
+| XT60H-M/F |
 
 <img src="./images/psu/XT60H-M-1.jpg" width='200' alt=''/>
 <img src="./images/psu/XT60H-M-2.jpg" width='200' alt=''/>
