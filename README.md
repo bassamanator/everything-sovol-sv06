@@ -180,6 +180,10 @@ I purchased and tested [this heatbreak](https://s.click.aliexpress.com/e/_DmzWJN
 
 ## PSU Related
 
+| Brand | Model | Wattage | Votage |
+| - | - | - | - | - |
+| Cheng Liang | P360W24V | 360W | 24V |
+
 <img src="./images/psu/psu-label.jpg" width='400px' alt=''/>
 
 ### PSU Connections
