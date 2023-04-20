@@ -75,7 +75,7 @@ The complete Klipper code to make this work is part of my [OSS Klipper Configura
 
 #### Aftermarket Options
 
-These can be found for very cheap (roughly $1.5) on Aliexpress and quite a bit more on  Amazon (though still very afforable). [This](https://s.click.aliexpress.com/e/_DDLpdBX) is the one I bought. Here's another seemingly [viable option](https://s.click.aliexpress.com/e/_DDPNmDX).
+These can be found for very cheap (roughly $1.5) on Aliexpress and quite a bit more on  Amazon (though still very affordable). [This](https://s.click.aliexpress.com/e/_DDLpdBX) is the one I bought. Here's another seemingly [viable option](https://s.click.aliexpress.com/e/_DDPNmDX).
 
 #### How To Cable
 
@@ -149,6 +149,14 @@ I purchased and tested [this heatbreak](https://s.click.aliexpress.com/e/_DmzWJN
 *The part sold in the link could change, so make sure it has the following specs*:
 
 <img src="./images/heatbreak/aftermarket-aliexpress.png" height="200" alt='Aftermarket heatbreak'/>
+
+### Probe
+
+<img src="./images/probe/probe.png" height="400" alt='probe'/>
+
+#### Aftermarket Options
+
+This is a $4 probe. Link coming soon.
 
 ## Motherboard
 
