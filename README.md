@@ -154,7 +154,7 @@ I purchased and tested [this heatbreak](https://s.click.aliexpress.com/e/_DmzWJN
 
 ### Probe
 
-<img src="./images/probe/probe.png" height="400" alt='probe'/>
+<img src="./images/probe/probe.png" height="600" alt='probe'/>
 
 #### Aftermarket Options
 
