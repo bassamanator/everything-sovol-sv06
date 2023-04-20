@@ -156,7 +156,7 @@ I purchased and tested [this heatbreak](https://s.click.aliexpress.com/e/_DmzWJN
 
 #### Aftermarket Options
 
-This is a $4 probe. Link coming soon.
+I bought [this probe: LJ12A3-4-Z-BY](https://s.click.aliexpress.com/e/_DCbT0mD). It's dimensionally correct, however, *completely untested*!
 
 ## Motherboard
 
