@@ -112,11 +112,13 @@ The heater cartridge is glued into the heatblock, a heatblock that heats to 300C
 
 #### Aftermarket Options
 
-Unfortunately, a direct, non-DIY replacement seems unlikely. It appears that no one sells heater cartridges with JST PH 2.0 2-Pin connectors.
+The Ender 3 S1 Pro heater cartridge seem to be plug and play for it, including the connector. Pending testing, but it does look and measure the same.
 
-You would have to buy a heater cartridge such as [this](https://s.click.aliexpress.com/e/_DeKbxqv), and crimp the appropriate connector on. 
+~~Unfortunately, a direct, non-DIY replacement seems unlikely. It appears that no one sells heater cartridges with JST PH 2.0 2-Pin connectors.~~
 
-⚠️ Caveat: This is not an ordinary crimp job. The hotend assembly consumes a lot of power and is dangerously hot. Take every precaution.
+~~You would have to buy a heater cartridge such as [this](https://s.click.aliexpress.com/e/_DeKbxqv), and crimp the appropriate connector on. ~~
+
+~~⚠️ Caveat: This is not an ordinary crimp job. The hotend assembly consumes a lot of power and is dangerously hot. Take every precaution.~~
 
 ### Thermistor
 
@@ -130,7 +132,7 @@ As was the case with the heater cartridge, the thermistor is also glued into pla
 
 #### Aftermarket Options
 
-*Coming soon.*
+It also seems like it can use the thermistor for the Ender 3 S1 Pro.
 
 ### Heatbreak
 
