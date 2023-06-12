@@ -8,6 +8,7 @@
 	"cSpell.words": [
 		"aftermarket",
 		"aliexpress",
+		"Coldend",
 		"Creality",
 		"heatblock",
 		"Heatbreak",
@@ -15,5 +16,8 @@
 		"Klipper",
 		"runout",
 		"Sovol"
-	]
+	],
+	"[markdown]": {
+		"editor.formatOnSave": true
+	}
 }

@@ -198,13 +198,13 @@ I bought [this probe: LJ12A3-4-Z-BY](https://s.click.aliexpress.com/e/_DCbT0mD).
 
 ### PSU Connections
 
-<img src="./images/psu/PSU-line-connections.png" alt=''/>
+<img src="./images/psu/PSU-line-connections.jpg" alt=''/>
 
 ### PSU Switch
 
-<img src="./images/psu/switch.png" alt=''/>
-<img src="./images/psu/switch-wiring.png" alt=''/>
-<img src="./images/psu/switch-wiring-alt.png" alt=''/>
+<img src="./images/psu/switch.jpg" alt=''/>
+<img src="./images/psu/switch-wiring.jpg" alt=''/>
+<img src="./images/psu/switch-wiring-alt.jpg" alt=''/>
 
 ### Other PSU Cable
 
@@ -214,7 +214,7 @@ I bought [this probe: LJ12A3-4-Z-BY](https://s.click.aliexpress.com/e/_DCbT0mD).
 
 <img src="./images/psu/XT60H-M-1.jpg" width='200' alt=''/>
 <img src="./images/psu/XT60H-M-2.jpg" width='200' alt=''/>
-<img src="./images/psu/XT60H-M-3-edit.jpg" width='400' alt=''/>
+<img src="./images/psu/xt60h-m-3.jpg" width='400' alt=''/>
 
 ## Sovol Repositories
 
