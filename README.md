@@ -8,7 +8,7 @@ If you found this work useful, please consider buying me a [<img src="./misc/log
 
 You can also contribute by making a [pull-request](https://github.com/bassamanator/everything-sovol-sv06/pulls), creating an [issue](https://github.com/bassamanator/everything-sovol-sv06/issues), or starting a [discussion](https://github.com/bassamanator/everything-sovol-sv06/discussions).
 
-*Some of the links found on this page may be affiliate links.*
+_Some of the links found on this page may be affiliate links._
 
 ## Stay Up-to-Date
 
@@ -19,14 +19,15 @@ This repository is a work in progress. Watch for updates:
 # Outline
 
 1. [Hotend](#hotend)
-    1. [PCB](#pcb-sv06zjb_v14)
-    2. [Filament Sensor](#filament-sensor)
-    3. [Heatblock](#heatblock)
-        1. [Heater Cartridge](#heater-cartridge)
-        2. [Thermistor](#thermistor)
-        3. [Heatbreak](#heatbreak)
-    4. *Fans*
-    5. [Probe](#probe)
+   1. [PCB](#pcb-sv06zjb_v14)
+   2. [Filament Sensor](#filament-sensor)
+   3. [Heatblock](#heatblock)
+      1. [Heater Cartridge](#heater-cartridge)
+      2. [Thermistor](#thermistor)
+      3. [Heatbreak](#heatbreak)
+   4. _Fans_
+   5. [Probe](#probe)
+   6. _Extruder_
 2. [Motherboard](#motherboard)
 3. [Lead Screws and Rods](#lead-screws-and-rods)
 4. [PSU Related](#psu-related)
@@ -40,15 +41,15 @@ This repository is a work in progress. Watch for updates:
 
 <img src="./images/hotend-pcb-labelled.png" width="800" alt='Hotend PCB'/>
 
-| Label | Connection | PCB Connection | Other Connection | Other info |
-| - | - | - | - | - |
-| P3 | Coldend fan | JST 1.25mm 2-Pin |  |  |
-| P2 | Extruder motor | JST 1.25mm 4-Pin | JST PH 2.0 6-Pin | Cable length 12cm |
-| P4 | Heater cartridge | JST PH 2.0 2-Pin |  |  |
-| P8 | Thermistor | JST 1.25mm 2-Pin |  |  |
-| P6 | Probe  | JST 1.25mm 5-Pin |  |  |
-| P5 | Part cooling fan | JST 1.25mm 2-Pin |  |  |
-| P7 | Filament sensor | JST 1.25mm 3-Pin |  |  |
+| Label | Connection       | PCB Connection   | Other Connection | Other info        |
+| ----- | ---------------- | ---------------- | ---------------- | ----------------- |
+| P3    | Coldend fan      | JST 1.25mm 2-Pin |                  |                   |
+| P2    | Extruder motor   | JST 1.25mm 4-Pin | JST PH 2.0 6-Pin | Cable length 12cm |
+| P4    | Heater cartridge | JST PH 2.0 2-Pin |                  |                   |
+| P8    | Thermistor       | JST 1.25mm 2-Pin |                  |                   |
+| P6    | Probe            | JST 1.25mm 5-Pin |                  |                   |
+| P5    | Part cooling fan | JST 1.25mm 2-Pin |                  |                   |
+| P7    | Filament sensor  | JST 1.25mm 3-Pin |                  |                   |
 
 ### Filament Sensor
 
@@ -59,6 +60,7 @@ In order to get the filament sensor working, just make sure that the `VCC`, `Gro
 In order to 'mount' the sensor while it's not in use, simply glue a small magnet onto the sensor. You can then stick the sensor onto the extruder motor. You might also want to tether the sensor to the extruder cable with a piece of string.
 
 Klipper filament configuration section:
+
 ```
 [filament_switch_sensor filament_sensor]
 switch_pin: !PA4 # "Pulled-high"
@@ -77,16 +79,17 @@ The complete Klipper code to make this work is part of my [OSS Klipper Configura
 
 #### Aftermarket Options
 
-These can be found for very cheap (roughly $1.5) on Aliexpress and quite a bit more on  Amazon (though still very affordable). [This](https://s.click.aliexpress.com/e/_DDLpdBX) is the one I bought. Here's another seemingly [viable option](https://s.click.aliexpress.com/e/_DDPNmDX).
+These can be found for very cheap (roughly $1.5) on Aliexpress and quite a bit more on Amazon (though still very affordable). [This](https://s.click.aliexpress.com/e/_DDLpdBX) is the one I bought. Here's another seemingly [viable option](https://s.click.aliexpress.com/e/_DDPNmDX).
 
 #### How To Cable
 
 You need to make your own cable. I recommend getting these [JST 1.25 cables](https://s.click.aliexpress.com/e/_DDORZ0D), and this [XH2.54 kit](https://s.click.aliexpress.com/e/_DlejPpj). You will also need a crimping tool such as the [Engineer PA-09](https://www.amazon.ca/gp/product/B002AVVO7K/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1).
+
 ### Heatblock
 
 <img src="./images/heatblock/heatblock-display.jpg" height="100" alt='Heatblock image'/>
 
-The SV06 uses a Creality CR10 heatblock which supports MK8 threaded nozzles (including some M6 nozzles). The material is likely nickel-plated copper (*needs verification*).
+The SV06 uses a Creality CR10 heatblock which supports MK8 threaded nozzles (including some M6 nozzles). The material is likely nickel-plated copper (_needs verification_).
 
 The heatblock is mounted onto the extruder assembly using 2 x M2.5 10mm [SHCS](./images/shcs.png).
 
@@ -98,23 +101,23 @@ Please see some more relevant details [here](heatblock.md).
 
 #### Aftermarket Options
 
-*Coming soon.*
+_Coming soon._
 
 ### Heater Cartridge
 
 The SV06 uses a ceramic heater cartridge.
 
-| Voltage | Watts | Dimensions | Connection | Cable Length |
-| - | - | - | - | - |
-| 24V | 40W | 6x20mm | JST PH 2.0 2-Pin | ~40mm |
+| Voltage | Watts | Dimensions | Connection       | Cable Length |
+| ------- | ----- | ---------- | ---------------- | ------------ |
+| 24V     | 40W   | 6x20mm     | JST PH 2.0 2-Pin | ~40mm        |
 
-The heater cartridge is glued into the heatblock, a heatblock that heats to 300C. Although possible, it is unadvisable, and potentially dangerous to attempt removal. 
+The heater cartridge is glued into the heatblock, a heatblock that heats to 300C. Although possible, it is inadvisable, and potentially dangerous to attempt removal.
 
 #### Aftermarket Options
 
 Unfortunately, a direct, non-DIY replacement seems unlikely. It appears that no one sells heater cartridges with JST PH 2.0 2-Pin connectors.
 
-You would have to buy a heater cartridge such as [this](https://s.click.aliexpress.com/e/_DeKbxqv), and crimp the appropriate connector on. 
+You would have to buy a heater cartridge such as [this](https://s.click.aliexpress.com/e/_DeKbxqv), and crimp the appropriate connector on.
 
 ⚠️ Caveat: This is not an ordinary crimp job. The hotend assembly consumes a lot of power and is dangerously hot. Take every precaution.
 
@@ -122,23 +125,23 @@ You would have to buy a heater cartridge such as [this](https://s.click.aliexpre
 
 The SV06 uses a glass-bead thermistor.
 
-| Material | Dimensions | Connection | Cable Length |
-| - | - | - | - |
-| Glass | 2mm | JST 1.25mm 2-Pin | ~40mm |
+| Material | Dimensions | Connection       | Cable Length |
+| -------- | ---------- | ---------------- | ------------ |
+| Glass    | 2mm        | JST 1.25mm 2-Pin | ~40mm        |
 
 As was the case with the heater cartridge, the thermistor is also glued into place, and is very unlikely to survive removal given the delicacy of the cables and composing material.
 
 #### Aftermarket Options
 
-*Coming soon.*
+_Coming soon._
 
 ### Heatbreak
 
 <img src="./images/heatbreak/heatbreak.png" height="200" alt=''/>
 
 | Cooper Portion | Overall Length | Outer Dia. | Inner Dia. |
-| - | - | - | - |
-| 15mm | 22mm | 7mm| 2mm|
+| -------------- | -------------- | ---------- | ---------- |
+| 15mm           | 22mm           | 7mm        | 2mm        |
 
 <img src="./images/heatbreak/copper-portion.jpg" width="100" alt='Heatbreak spec'/>
 <img src="./images/heatbreak/overall.jpg" width="100" alt='22mm'/>
@@ -148,7 +151,7 @@ As was the case with the heater cartridge, the thermistor is also glued into pla
 
 I purchased and tested [this heatbreak](https://s.click.aliexpress.com/e/_DmzWJNb). It works as well as the stock piece.
 
-*The part sold in the link could change, so make sure it has the following specs*:
+_The part sold in the link could change, so make sure it has the following specs_:
 
 <img src="./images/heatbreak/aftermarket-aliexpress.png" height="200" alt='Aftermarket heatbreak'/>
 
@@ -158,7 +161,7 @@ I purchased and tested [this heatbreak](https://s.click.aliexpress.com/e/_DmzWJN
 
 #### Aftermarket Options
 
-I bought [this probe: LJ12A3-4-Z-BY](https://s.click.aliexpress.com/e/_DCbT0mD). It's dimensionally correct, however, *completely untested*!
+I bought [this probe: LJ12A3-4-Z-BY](https://s.click.aliexpress.com/e/_DCbT0mD). It's dimensionally correct, however, _completely untested_!
 
 ## Motherboard
 
@@ -168,31 +171,31 @@ I bought [this probe: LJ12A3-4-Z-BY](https://s.click.aliexpress.com/e/_DCbT0mD).
 
 ### Lead Screws
 
-| Axis | Qty | Length | Dia. | Lead | Pitch | Starts | Sovol Part # |
-| - | - | - | - | - | - | - | - |
-| Z | 2 | 376mm | 8mm | 4mm | 2mm | 2 | JXHSV06-02003-a |
+| Axis | Qty | Length | Dia. | Lead | Pitch | Starts | Sovol Part #    |
+| ---- | --- | ------ | ---- | ---- | ----- | ------ | --------------- |
+| Z    | 2   | 376mm  | 8mm  | 4mm  | 2mm   | 2      | JXHSV06-02003-a |
 
 ### Linear Motion Guide Rods
 
-| Axis | Qty | Length | Dia. | Sovol Part # |
-| - | - | - | - | - |
-| X | 2 | 355mm | 8mm | JXHSV06-03001-a |
-| Y | 2 | 340mm | 8mm | JXHSV06-01012-a |
-| Z | 2 | 400mm | 8mm | JXHSV06-02004-a |
+| Axis | Qty | Length | Dia. | Sovol Part #    |
+| ---- | --- | ------ | ---- | --------------- |
+| X    | 2   | 355mm  | 8mm  | JXHSV06-03001-a |
+| Y    | 2   | 340mm  | 8mm  | JXHSV06-01012-a |
+| Z    | 2   | 400mm  | 8mm  | JXHSV06-02004-a |
 
 ### Z Axis Couplers
 
 <img src="./images/z-coupler.png" width="100" alt='Z coupler rigid 5mm to 8mm'/>
 
-| Type | Qty | Dia.| Length | Motor Shaft Dia. | Lead Screw Dia. |
-| - | - | - | - | - | - |
-| Rigid | 2 | 20mm | 25mm | 5mm | 8mm |
+| Type  | Qty | Dia. | Length | Motor Shaft Dia. | Lead Screw Dia. |
+| ----- | --- | ---- | ------ | ---------------- | --------------- |
+| Rigid | 2   | 20mm | 25mm   | 5mm              | 8mm             |
 
 ## PSU Related
 
-| Brand | Model | Wattage | Votage |
-| - | - | - | - |
-| Cheng Liang | P360W24V | 360W | 24V |
+| Brand       | Model    | Wattage | Voltage |
+| ----------- | -------- | ------- | ------- |
+| Cheng Liang | P360W24V | 360W    | 24V     |
 
 <img src="./images/psu/psu-label.jpg" width='400px' alt=''/>
 
@@ -208,8 +211,8 @@ I bought [this probe: LJ12A3-4-Z-BY](https://s.click.aliexpress.com/e/_DCbT0mD).
 
 ### Other PSU Cable
 
-| Part |
-| - |
+| Part      |
+| --------- |
 | XT60H-M/F |
 
 <img src="./images/psu/XT60H-M-1.jpg" width='200' alt=''/>
@@ -218,12 +221,13 @@ I bought [this probe: LJ12A3-4-Z-BY](https://s.click.aliexpress.com/e/_DCbT0mD).
 
 ## Sovol Repositories
 
-- [Marlin source code](https://github.com/Sovol3d/Sv06-Source-Code)
-- [Printer parts STL and STEP files](https://github.com/Sovol3d/SV06-Fully-Open-Source)
+- [SV06 Official Marlin Source Code](https://github.com/Sovol3d/Sv06-Source-Code)
+- [SV06 Official Models](https://github.com/Sovol3d/SV06-Fully-Open-Source)
+- [SV06 Plus Official Marlin Source Code and Models](https://github.com/Sovol3d/SV06-PLUS)
 
 ## Useful Resources
 
-- [*OSS* Sovol SV06 Klipper Configuration](https://github.com/bassamanator/Sovol-SV06-firmware/tree/master)
+- [_OSS_ Sovol SV06 Klipper Configuration](https://github.com/bassamanator/Sovol-SV06-firmware/tree/master)
 - [RP2040-Zero ADXL345 Connection Klipper](https://github.com/bassamanator/rp2040-zero-adxl345-klipper)
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/H2H0HIHTH)
