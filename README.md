@@ -101,7 +101,7 @@ Please see some more relevant details [here](heatblock.md).
 
 #### Aftermarket Options
 
-_Coming soon._
+Any of [these](https://www.aliexpress.com/item/32969219551.html) heatblocks will do just fine, however, may require mounting bolts of different sizes.
 
 ### Heater Cartridge
 
