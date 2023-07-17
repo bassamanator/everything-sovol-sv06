@@ -24,6 +24,26 @@
 		"Sovol"
 	],
 	"[markdown]": {
-		"editor.formatOnSave": true
-	}
+		"editor.formatOnSave": false
+	},
+	"workbench.colorCustomizations": {
+		"activityBar.activeBackground": "#b28cff",
+		"activityBar.background": "#b28cff",
+		"activityBar.foreground": "#15202b",
+		"activityBar.inactiveForeground": "#15202b99",
+		"activityBarBadge.background": "#bf3f00",
+		"activityBarBadge.foreground": "#e7e7e7",
+		"commandCenter.border": "#e7e7e799",
+		"sash.hoverBorder": "#b28cff",
+		"statusBar.background": "#9059ff",
+		"statusBar.foreground": "#e7e7e7",
+		"statusBarItem.hoverBackground": "#b28cff",
+		"statusBarItem.remoteBackground": "#9059ff",
+		"statusBarItem.remoteForeground": "#e7e7e7",
+		"titleBar.activeBackground": "#9059ff",
+		"titleBar.activeForeground": "#e7e7e7",
+		"titleBar.inactiveBackground": "#9059ff99",
+		"titleBar.inactiveForeground": "#e7e7e799"
+	},
+	"peacock.color": "#9059FF"
 }
