@@ -25,15 +25,15 @@ This repository is a work in progress. Watch for updates:
       1. [Heater Cartridge](#heater-cartridge)
       2. [Thermistor](#thermistor)
       3. [Heatbreak](#heatbreak)
+      4. _Nozzle_
    4. _Fans_
    5. [Probe](#probe)
    6. _Extruder_
 2. [Motherboard](#motherboard)
 3. [Lead Screws and Rods](#lead-screws-and-rods)
-4. [PSU Related](#psu-related)
-5. [Useful Prints](./parts/README.md)
-
-<!-- hidden-->
+   4. _Linear Bearings_
+5. [PSU Related](#psu-related)
+6. [Useful Prints](./parts/README.md)
 
 ## Hotend
 
