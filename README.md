@@ -34,6 +34,7 @@ This repository is a work in progress. Watch for updates:
    1. _Linear Bearings_
 4. [PSU Related](#psu-related)
 5. [Useful Prints](./parts/README.md)
+6. [How to Change Nozzles](./heatblock.md#changing-nozzles)
 
 ## Hotend
 
@@ -89,15 +90,15 @@ You need to make your own cable. I recommend getting these [JST 1.25 cables](htt
 
 <img src="./images/heatblock/heatblock-display.jpg" height="100" alt='Heatblock image'/>
 
-The SV06 uses a Creality CR10 heatblock which supports MK8 threaded nozzles (including some M6 nozzles). The material is likely nickel-plated copper (_needs verification_).
+| Model         | Material |
+| ------------- | -------- |
+| Creality CR10 | Aluminum |
 
 The heatblock is mounted onto the extruder assembly using `2 x M2.5 x 10mm` [SHCS](./images/shcs.png).
 
 <p align="center">
 <img src="./images/heatblock/heatblock-specs.png" width="500" alt='Heatblock spec'/>
 </p>
-
-Please see some more relevant details [here](heatblock.md).
 
 #### Aftermarket Options
 
