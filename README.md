@@ -19,26 +19,32 @@ This repository is a work in progress. Watch for updates:
 # Outline
 
 1. [Hotend](#hotend)
-   1. [PCB](#pcb-sv06zjb_v14)
-   2. [Filament Sensor](#filament-sensor)
-   3. [Heatblock](#heatblock)
+   1. [PCB](#pcb)
+   2. [Heatblock](#heatblock)
       1. [Heater Cartridge](#heater-cartridge)
       2. [Thermistor](#thermistor)
       3. [Heatbreak](#heatbreak)
       4. [Nozzle](#nozzle)
-   4. _Fans_
-   5. [Probe](#probe)
+   3. [Filament Sensor](#filament-sensor)
+   4. [Probe](#probe)
+   5. _Fans_
    6. _Extruder_
 2. [Motherboard](#motherboard)
 3. [Lead Screws and Rods](#lead-screws-and-rods)
-   1. _Linear Bearings_
+   1. [Lead Screws](#lead-screws)
+   2. [Linear Motion Guide Rods](#linear-motion-guide-rods)
+   3. [Z Axis Couplers](#z-axis-couplers)
+   4. _Linear Bearings_
 4. [PSU Related](#psu-related)
 5. [Useful Prints](./parts/README.md)
 6. [How to Change Nozzles](./heatblock.md#changing-nozzles)
+7. [Links](#useful-links)
 
-## Hotend
+# Hotend
 
-### PCB SV06ZJB_V1.4
+## PCB
+
+Revision: `SV06ZJB_V1.4`
 
 <img src="./images/hotend-pcb-labelled.png" width="800" alt='Hotend PCB'/>
 
@@ -52,7 +58,7 @@ This repository is a work in progress. Watch for updates:
 | P5    | Part cooling fan | JST 1.25mm 2-Pin |                  |                   |
 | P7    | Filament sensor  | JST 1.25mm 3-Pin |                  |                   |
 
-### Filament Sensor
+## Filament Sensor
 
 I tested two random filament runout sensors that I had on hand. Both work just fine. It seems to me that any sensor with `VCC`, `Ground`, and `Signal` pins should work.
 
@@ -78,15 +84,15 @@ The complete Klipper code to make this work is part of my [OSS Klipper Configura
 <img src="./images/fil-sensor/simple.jpg" width="800" alt='Filament sensor'/>
 <img src="./images/fil-sensor/fil-sensor-side.jpg" width="800" alt='Filament sensor'/>
 
-#### Aftermarket Options
+### Aftermarket Options
 
 These can be found for very cheap (roughly $1.5) on Aliexpress and quite a bit more on Amazon (though still very affordable). [This](https://s.click.aliexpress.com/e/_DDLpdBX) is the one I bought. Here's another seemingly [viable option](https://s.click.aliexpress.com/e/_DDPNmDX).
 
-#### How To Cable
+### Cable How-To
 
 You need to make your own cable. I recommend getting these [JST 1.25 cables](https://s.click.aliexpress.com/e/_DDORZ0D), and this [XH2.54 kit](https://s.click.aliexpress.com/e/_DlejPpj). You will also need a crimping tool such as the [Engineer PA-09](https://www.amazon.ca/gp/product/B002AVVO7K/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1).
 
-### Heatblock
+## Heatblock
 
 <img src="./images/heatblock/heatblock-display.jpg" height="100" alt='Heatblock image'/>
 
@@ -100,7 +106,7 @@ The heatblock is mounted onto the extruder assembly using `2 x M2.5 x 10mm` [SHC
 <img src="./images/heatblock/heatblock-specs.png" width="500" alt='Heatblock spec'/>
 </p>
 
-#### Aftermarket Options
+### Aftermarket Options
 
 Any of [these](https://www.aliexpress.com/item/32969219551.html) heatblocks will do just fine, however, they _may_ require mounting bolts of different sizes.
 
@@ -117,13 +123,13 @@ The SV06 uses a ceramic heater cartridge.
 
 The heater cartridge is glued into the heatblock, a heatblock that heats to 300C. Although possible, it is inadvisable, and potentially dangerous to attempt removal.
 
-#### Aftermarket Options
+### Aftermarket Options
 
 Unfortunately, a direct, non-DIY replacement seems unlikely. It appears that no one sells heater cartridges with JST PH 2.0 2-Pin connectors.
 
 You would have to buy a heater cartridge such as [this](https://s.click.aliexpress.com/e/_DeKbxqv), and crimp the appropriate connector on.
 
-⚠️ Caveat: This is not an ordinary crimp job. The hotend assembly consumes a lot of power and is dangerously hot. Take every precaution.
+⚠️ This is not an ordinary crimp job. The hotend assembly consumes a lot of power and is dangerously hot. Take every precaution.
 
 ### Thermistor
 
@@ -135,7 +141,7 @@ The SV06 uses a glass-bead thermistor.
 
 As was the case with the heater cartridge, the thermistor is also glued into place, and is very unlikely to survive removal given the delicacy of the cables and composing material.
 
-#### Aftermarket Options
+### Aftermarket Options
 
 - [3mm Tube Thermistor](https://s.click.aliexpress.com/e/_DnBUliL)
   - Please note that this thermistor will **not** fit in the stock heatblock. You need a heatblock that has a 3mm thermistor hole.
@@ -154,7 +160,7 @@ As was the case with the heater cartridge, the thermistor is also glued into pla
 | -------------- | -------------- | ---------- | ---------- |
 | 15mm           | 22mm           | 7mm        | 2mm        |
 
-#### Aftermarket Options
+### Aftermarket Options
 
 I purchased and tested [this heatbreak](https://s.click.aliexpress.com/e/_DmzWJNb).
 
@@ -175,31 +181,35 @@ _The part sold in the link could change, so make sure it has the following specs
 
 Any MK8 nozzle will do. You can even use a [V6 style nozzle](./images/nozzle/nozzle-comparison.jpg).
 
-#### Aftermarket Options
+### Aftermarket Options
 
 **Any** MK8 nozzle will be fine. I like [these](https://s.click.aliexpress.com/e/_DCDKb0n) because they're chunky.
 
-### Probe
+## Probe
 
-<img src="./images/probe/probe.png" height="600" alt='probe'/>
+<p align="center">
+    <img src="./images/probe/probe.png" height="600" alt='probe'/>
+</p>
 
-#### Aftermarket Options
+### Aftermarket Options
 
 I bought [this probe: LJ12A3-4-Z-BY](https://s.click.aliexpress.com/e/_DCbT0mD). It's dimensionally correct, however, _completely untested_!
 
-## Motherboard
+# Motherboard
 
-<img src="./images/motherboard.png" width="800" alt='Motherboard'/>
+<p align="center">
+    <img src="./images/motherboard.png" width="400" alt='Motherboard' />
+</p>
 
-## Lead Screws and Rods
+# Lead Screws and Rods
 
-### Lead Screws
+## Lead Screws
 
 | Axis | Qty | Length | Dia. | Lead | Pitch | Starts | Sovol Part #    |
 | ---- | --- | ------ | ---- | ---- | ----- | ------ | --------------- |
 | Z    | 2   | 376mm  | 8mm  | 4mm  | 2mm   | 2      | JXHSV06-02003-a |
 
-### Linear Motion Guide Rods
+## Linear Motion Guide Rods
 
 | Axis | Qty | Length | Dia. | Sovol Part #    |
 | ---- | --- | ------ | ---- | --------------- |
@@ -207,7 +217,7 @@ I bought [this probe: LJ12A3-4-Z-BY](https://s.click.aliexpress.com/e/_DCbT0mD).
 | Y    | 2   | 340mm  | 8mm  | JXHSV06-01012-a |
 | Z    | 2   | 400mm  | 8mm  | JXHSV06-02004-a |
 
-### Z Axis Couplers
+## Z Axis Couplers
 
 <img src="./images/z-coupler.png" width="100" alt='Z coupler rigid 5mm to 8mm'/>
 
@@ -215,7 +225,7 @@ I bought [this probe: LJ12A3-4-Z-BY](https://s.click.aliexpress.com/e/_DCbT0mD).
 | ----- | --- | ---- | ------ | ---------------- | --------------- |
 | Rigid | 2   | 20mm | 25mm   | 5mm              | 8mm             |
 
-## PSU Related
+# PSU Related
 
 | Brand       | Model    | Wattage | Voltage |
 | ----------- | -------- | ------- | ------- |
@@ -223,17 +233,17 @@ I bought [this probe: LJ12A3-4-Z-BY](https://s.click.aliexpress.com/e/_DCbT0mD).
 
 <img src="./images/psu/psu-label.jpg" width='400px' alt=''/>
 
-### PSU Connections
+## PSU Connections
 
 <img src="./images/psu/PSU-line-connections.jpg" alt=''/>
 
-### PSU Switch
+## PSU Switch
 
 <img src="./images/psu/switch.jpg" alt=''/>
 <img src="./images/psu/switch-wiring.jpg" alt=''/>
 <img src="./images/psu/switch-wiring-alt.jpg" alt=''/>
 
-### Other PSU Cable
+## Other PSU Cable
 
 | Part      |
 | --------- |
@@ -243,13 +253,15 @@ I bought [this probe: LJ12A3-4-Z-BY](https://s.click.aliexpress.com/e/_DCbT0mD).
 <img src="./images/psu/XT60H-M-2.jpg" width='200' alt=''/>
 <img src="./images/psu/xt60h-m-3.jpg" width='400' alt=''/>
 
+# Useful Links
+
 ## Sovol Repositories
 
 - [SV06 Official Marlin Source Code](https://github.com/Sovol3d/Sv06-Source-Code)
 - [SV06 Official Models](https://github.com/Sovol3d/SV06-Fully-Open-Source)
 - [SV06 Plus Official Marlin Source Code and Models](https://github.com/Sovol3d/SV06-PLUS)
 
-## Useful Resources
+## Resources
 
 - [_OSS_ Sovol SV06 Klipper Configuration](https://github.com/bassamanator/Sovol-SV06-firmware/tree/master)
 - [RP2040-Zero ADXL345 Connection Klipper](https://github.com/bassamanator/rp2040-zero-adxl345-klipper)
