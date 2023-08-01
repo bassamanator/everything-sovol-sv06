@@ -156,7 +156,10 @@ As was the case with the heater cartridge, the thermistor is also glued into pla
 
 #### Aftermarket Options
 
-I purchased and tested [this heatbreak](https://s.click.aliexpress.com/e/_DmzWJNb). It works as well as the stock piece.
+I purchased and tested [this heatbreak](https://s.click.aliexpress.com/e/_DmzWJNb).
+
+- It works as well as the stock piece.
+- It is 1mm shorter than the stock piece, so you will need a washer or spacer of some kind to 'increase' it's length. If you don't add a spacer, your part cooling duct will be exactly inline with the nozzle tip, meaning that the part cooling duct will drag across every new layer. The spacer must not be more than 7mm in diameter.
 
 _The part sold in the link could change, so make sure it has the following specs_:
 
