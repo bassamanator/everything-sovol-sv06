@@ -134,7 +134,7 @@ You would have to buy a heater cartridge such as [this](https://s.click.aliexpre
 | ---------- | ---------- | ---------------- | ------------ |
 | Glass-bead | 2mm        | JST 1.25mm 2-Pin | ~40mm        |
 
-The thermistor is held in place with the help of a screw, and a generous amount of thermal adhesive. With the help of a heatgun, and with great care, it can be removed.
+The thermistor is held in place with the help of a screw, and a generous amount of thermal adhesive. With the help of a heat-gun, and with great care, it can be removed.
 
 #### Aftermarket Options
 
@@ -219,6 +219,10 @@ I bought [this probe: LJ12A3-4-Z-BY](https://s.click.aliexpress.com/e/_DCbT0mD).
 | Type  | Qty | Dia. | Length | Motor Shaft Dia. | Lead Screw Dia. |
 | ----- | --- | ---- | ------ | ---------------- | --------------- |
 | Rigid | 2   | 20mm | 25mm   | 5mm              | 8mm             |
+
+### Aftermarket Options
+
+[Option 1](https://s.click.aliexpress.com/e/_DFQu2bD)
 
 # PSU Related
 
