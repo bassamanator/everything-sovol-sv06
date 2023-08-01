@@ -133,7 +133,12 @@ As was the case with the heater cartridge, the thermistor is also glued into pla
 
 #### Aftermarket Options
 
-_Coming soon._
+- [3mm Tube Thermister](https://s.click.aliexpress.com/e/_DnBUliL)
+   - Please note that this thermistor will **not** fit in the stock heatblock. You need a heatblock that has a 3mm thermistor hole.
+- [3mm Tube Thermister 4 units](https://s.click.aliexpress.com/e/_Dmwf20F)
+  - Please note that this thermistor will **not** fit in the stock heatblock. You need a heatblock that has a 3mm thermistor hole.
+  - **Untested** though it looks exactly the same as the option above.
+  - Cheaper than then first option.
 
 ### Heatbreak
 
