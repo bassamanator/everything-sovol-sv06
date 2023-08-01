@@ -25,15 +25,15 @@ This repository is a work in progress. Watch for updates:
       1. [Heater Cartridge](#heater-cartridge)
       2. [Thermistor](#thermistor)
       3. [Heatbreak](#heatbreak)
-      4. _Nozzle_
+      4. [Nozzle](#nozzle)
    4. _Fans_
    5. [Probe](#probe)
    6. _Extruder_
 2. [Motherboard](#motherboard)
 3. [Lead Screws and Rods](#lead-screws-and-rods)
-   4. _Linear Bearings_
-5. [PSU Related](#psu-related)
-6. [Useful Prints](./parts/README.md)
+   1. _Linear Bearings_
+4. [PSU Related](#psu-related)
+5. [Useful Prints](./parts/README.md)
 
 ## Hotend
 
@@ -101,7 +101,8 @@ Please see some more relevant details [here](heatblock.md).
 
 #### Aftermarket Options
 
-Any of [these](https://www.aliexpress.com/item/32969219551.html) heatblocks will do just fine, however, may require mounting bolts of different sizes.
+Any of [these](https://www.aliexpress.com/item/32969219551.html) heatblocks will do just fine, however, they _may_ require mounting bolts of different sizes.
+
 - The [Type C](https://s.click.aliexpress.com/e/_DEfTKT1) has 2mm and 3mm thermistor holes.
 - I have the `Type C`. The original mounting bolts will not be long enough, you will need [2 x M2.5 x 16mm FHCS](https://s.click.aliexpress.com/e/_DFDH4Hl) ([2 x M2.5 x 18mm FHCS](https://s.click.aliexpress.com/e/_DEbXHQ7) will also work).
 
@@ -135,12 +136,12 @@ As was the case with the heater cartridge, the thermistor is also glued into pla
 
 #### Aftermarket Options
 
-- [3mm Tube Thermister](https://s.click.aliexpress.com/e/_DnBUliL)
-   - Please note that this thermistor will **not** fit in the stock heatblock. You need a heatblock that has a 3mm thermistor hole.
-- [3mm Tube Thermister 4 units](https://s.click.aliexpress.com/e/_Dmwf20F)
+- [3mm Tube Thermistor](https://s.click.aliexpress.com/e/_DnBUliL)
   - Please note that this thermistor will **not** fit in the stock heatblock. You need a heatblock that has a 3mm thermistor hole.
+- [3mm Tube Thermistor 4 units](https://s.click.aliexpress.com/e/_Dmwf20F)
   - **Untested** though it looks exactly the same as the option above.
   - Cheaper than then first option.
+  - Please note that this thermistor will **not** fit in the stock heatblock. You need a heatblock that has a 3mm thermistor hole.
 
 ### Heatbreak
 
@@ -164,6 +165,20 @@ I purchased and tested [this heatbreak](https://s.click.aliexpress.com/e/_DmzWJN
 _The part sold in the link could change, so make sure it has the following specs_:
 
 <img src="./images/heatbreak/aftermarket-aliexpress.png" height="200" alt='Aftermarket heatbreak'/>
+
+### Nozzle
+
+<img src="./images/nozzle/mk8-nozzle.jpg" height="200" alt=''/>
+
+| Type | Thread |
+| ---- | ------ |
+| MK8  | M6     |
+
+Any MK8 nozzle will do. You can even use a [V6 style nozzle](./images/nozzle/nozzle-comparison.jpg).
+
+#### Aftermarket Options
+
+**Any** MK8 nozzle will be fine. I like [these](https://s.click.aliexpress.com/e/_DCDKb0n) because they're chunky.
 
 ### Probe
 
