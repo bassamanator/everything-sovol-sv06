@@ -55,40 +55,6 @@ Revision: `SV06ZJB_V1.4`
 | P5    | Part cooling fan | JST 1.25mm 2-Pin |                  |                   |
 | P7    | Filament sensor  | JST 1.25mm 3-Pin |                  |                   |
 
-## Filament Sensor
-
-I tested two random filament runout sensors that I had on hand. Both work just fine. It seems to me that any sensor with `VCC`, `Ground`, and `Signal` pins should work.
-
-In order to get the filament sensor working, just make sure that the `VCC`, `Ground`, and `Signal` line up with the pins on the hotend PCB, port `P7`.
-
-In order to 'mount' the sensor while it's not in use, simply glue a small magnet onto the sensor. You can then stick the sensor onto the extruder motor. You might also want to tether the sensor to the extruder cable with a piece of string.
-
-Klipper filament configuration section:
-
-```
-[filament_switch_sensor filament_sensor]
-switch_pin: !PA4 # "Pulled-high"
-pause_on_runout: True
-insert_gcode:
-    M117 Insert Detected
-runout_gcode:
-    M117 Runout Detected
-```
-
-The complete Klipper code to make this work is part of my [OSS Klipper Configuration](https://github.com/bassamanator/Sovol-SV06-firmware).
-
-<img src="./images/fil-sensor/btt.jpg" width="800" alt='Filament sensor'/>
-<img src="./images/fil-sensor/simple.jpg" width="800" alt='Filament sensor'/>
-<img src="./images/fil-sensor/fil-sensor-side.jpg" width="800" alt='Filament sensor'/>
-
-### Aftermarket Options
-
-These can be found for very cheap (roughly $1.5) on Aliexpress and quite a bit more on Amazon (though still very affordable). [This](https://s.click.aliexpress.com/e/_DDLpdBX) is the one I bought. Here's another seemingly [viable option](https://s.click.aliexpress.com/e/_DDPNmDX).
-
-### Cable How-To
-
-You need to make your own cable. I recommend getting these [JST 1.25 cables](https://s.click.aliexpress.com/e/_DDORZ0D), and this [XH2.54 kit](https://s.click.aliexpress.com/e/_DlejPpj). You will also need a crimping tool such as the [Engineer PA-09](https://www.amazon.ca/gp/product/B002AVVO7K/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1).
-
 ## Heatblock
 
 <img src="./images/heatblock/heatblock-display.jpg" height="100" alt='Heatblock image'/>
@@ -179,6 +145,40 @@ Any MK8 nozzle will do. You can even use a [V6 style nozzle](./images/nozzle/noz
 #### Aftermarket Options
 
 **Any** MK8 nozzle will be fine. I like [these](https://s.click.aliexpress.com/e/_DCDKb0n) because they're chunky.
+
+## Filament Sensor
+
+I tested two random filament runout sensors that I had on hand. Both work just fine. It seems to me that any sensor with `VCC`, `Ground`, and `Signal` pins should work.
+
+In order to get the filament sensor working, just make sure that the `VCC`, `Ground`, and `Signal` line up with the pins on the hotend PCB, port `P7`.
+
+In order to 'mount' the sensor while it's not in use, simply glue a small magnet onto the sensor. You can then stick the sensor onto the extruder motor. You might also want to tether the sensor to the extruder cable with a piece of string.
+
+Klipper filament configuration section:
+
+```
+[filament_switch_sensor filament_sensor]
+switch_pin: !PA4 # "Pulled-high"
+pause_on_runout: True
+insert_gcode:
+    M117 Insert Detected
+runout_gcode:
+    M117 Runout Detected
+```
+
+The complete Klipper code to make this work is part of my [OSS Klipper Configuration](https://github.com/bassamanator/Sovol-SV06-firmware).
+
+<img src="./images/fil-sensor/btt.jpg" width="800" alt='Filament sensor'/>
+<img src="./images/fil-sensor/simple.jpg" width="800" alt='Filament sensor'/>
+<img src="./images/fil-sensor/fil-sensor-side.jpg" width="800" alt='Filament sensor'/>
+
+### Aftermarket Options
+
+These can be found for very cheap (roughly $1.5) on Aliexpress and quite a bit more on Amazon (though still very affordable). [This](https://s.click.aliexpress.com/e/_DDLpdBX) is the one I bought. Here's another seemingly [viable option](https://s.click.aliexpress.com/e/_DDPNmDX).
+
+### Cable How-To
+
+You need to make your own cable. I recommend getting these [JST 1.25 cables](https://s.click.aliexpress.com/e/_DDORZ0D), and this [XH2.54 kit](https://s.click.aliexpress.com/e/_DlejPpj). You will also need a crimping tool such as the [Engineer PA-09](https://www.amazon.ca/gp/product/B002AVVO7K/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1).
 
 ## Probe
 
