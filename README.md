@@ -4,41 +4,38 @@ A repository containing specifications of the Sovol SV06 3D printer parts, as we
 
 You can assume that all information herein is accurate unless stated otherwise.
 
-If you found this work useful, please consider buying me a [<img src="./misc/logo_white_stroke.png" height="20" alt='Ko-fi'/>](https://ko-fi.com/bassamanator).
+If you found this work useful, please consider buying me a [<img src="./images/misc/logo_white_stroke.png" height="20" alt='Ko-fi'/>](https://ko-fi.com/bassamanator).
 
 You can also contribute by making a [pull-request](https://github.com/bassamanator/everything-sovol-sv06/pulls), creating an [issue](https://github.com/bassamanator/everything-sovol-sv06/issues), or starting a [discussion](https://github.com/bassamanator/everything-sovol-sv06/discussions).
 
 _Some of the links found on this page may be affiliate links._
 
-## Stay Up-to-Date
-
-This repository is a work in progress. Watch for updates:
-
-<img src="./images/githubstar.gif" width="500" alt='Github star'/>
-
 # Outline
 
 1. [Hotend](#hotend)
-   1. [PCB](#pcb)
-   2. [Heatblock](#heatblock)
-      1. [Heater Cartridge](#heater-cartridge)
-      2. [Thermistor](#thermistor)
-      3. [Heatbreak](#heatbreak)
-      4. [Nozzle](#nozzle)
-   3. [Filament Sensor](#filament-sensor)
-   4. [Probe](#probe)
-   5. _Fans_
-   6. _Extruder_
+   - [PCB](#pcb)
+   - [Heatblock](#heatblock)
+     - [Heater Cartridge](#heater-cartridge)
+     - [Thermistor](#thermistor)
+     - [Heatbreak](#heatbreak)
+     - [Nozzle](#nozzle)
+   - [Filament Sensor](#filament-sensor)
+   - [Probe](#probe)
+   - _Fans_
+   - _Extruder_
 2. [Motherboard](#motherboard)
 3. [Lead Screws and Rods](#lead-screws-and-rods)
-   1. [Lead Screws](#lead-screws)
-   2. [Linear Motion Guide Rods](#linear-motion-guide-rods)
-   3. [Z Axis Couplers](#z-axis-couplers)
-   4. _Linear Bearings_
+   - [Lead Screws](#lead-screws)
+   - [Linear Motion Guide Rods](#linear-motion-guide-rods)
+   - [Z Axis Couplers](#z-axis-couplers)
+   - _Linear Bearings_
 4. [PSU Related](#psu-related)
-5. [Useful Prints](./parts/README.md)
-6. [How to Change Nozzles](./heatblock.md#changing-nozzles)
-7. [Links](#useful-links)
+
+- [Useful Prints](./parts/README.md)
+- [How to Change Nozzles](./heatblock.md#changing-nozzles)
+- [Support Me](#support-me)
+- [Stay Up-to-Date](#stay-up-to-date)
+- [Links](#useful-links)
 
 # Hotend
 
@@ -123,7 +120,7 @@ The SV06 uses a ceramic heater cartridge.
 
 The heater cartridge is glued into the heatblock, a heatblock that heats to 300C. Although possible, it is inadvisable, and potentially dangerous to attempt removal.
 
-### Aftermarket Options
+#### Aftermarket Options
 
 Unfortunately, a direct, non-DIY replacement seems unlikely. It appears that no one sells heater cartridges with JST PH 2.0 2-Pin connectors.
 
@@ -133,15 +130,13 @@ You would have to buy a heater cartridge such as [this](https://s.click.aliexpre
 
 ### Thermistor
 
-The SV06 uses a glass-bead thermistor.
+| Material   | Dimensions | Connection       | Cable Length |
+| ---------- | ---------- | ---------------- | ------------ |
+| Glass-bead | 2mm        | JST 1.25mm 2-Pin | ~40mm        |
 
-| Material | Dimensions | Connection       | Cable Length |
-| -------- | ---------- | ---------------- | ------------ |
-| Glass    | 2mm        | JST 1.25mm 2-Pin | ~40mm        |
+The thermistor is held in place with the help of a screw, and a generous amount of thermal adhesive. With the help of a heatgun, and with great care, it can be removed.
 
-As was the case with the heater cartridge, the thermistor is also glued into place, and is very unlikely to survive removal given the delicacy of the cables and composing material.
-
-### Aftermarket Options
+#### Aftermarket Options
 
 - [3mm Tube Thermistor](https://s.click.aliexpress.com/e/_DnBUliL)
   - Please note that this thermistor will **not** fit in the stock heatblock. You need a heatblock that has a 3mm thermistor hole.
@@ -160,7 +155,7 @@ As was the case with the heater cartridge, the thermistor is also glued into pla
 | -------------- | -------------- | ---------- | ---------- |
 | 15mm           | 22mm           | 7mm        | 2mm        |
 
-### Aftermarket Options
+#### Aftermarket Options
 
 I purchased and tested [this heatbreak](https://s.click.aliexpress.com/e/_DmzWJNb).
 
@@ -181,7 +176,7 @@ _The part sold in the link could change, so make sure it has the following specs
 
 Any MK8 nozzle will do. You can even use a [V6 style nozzle](./images/nozzle/nozzle-comparison.jpg).
 
-### Aftermarket Options
+#### Aftermarket Options
 
 **Any** MK8 nozzle will be fine. I like [these](https://s.click.aliexpress.com/e/_DCDKb0n) because they're chunky.
 
@@ -252,6 +247,18 @@ I bought [this probe: LJ12A3-4-Z-BY](https://s.click.aliexpress.com/e/_DCbT0mD).
 <img src="./images/psu/XT60H-M-1.jpg" width='200' alt=''/>
 <img src="./images/psu/XT60H-M-2.jpg" width='200' alt=''/>
 <img src="./images/psu/xt60h-m-3.jpg" width='400' alt=''/>
+
+# Support Me
+
+Please ⭐ star this repository!
+
+If you found my work useful, consider buying me a [<img src="./images/misc/logo_white_stroke.png" height="20" alt='Ko-fi'/>](https://ko-fi.com/bassamanator).
+
+# Stay Up-to-Date
+
+This repository is a work in progress. Watch for updates:
+
+<img src="./images/misc/githubstar.gif" width="500" alt='Github star'/>
 
 # Useful Links
 
