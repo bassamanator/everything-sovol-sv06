@@ -91,7 +91,7 @@ You need to make your own cable. I recommend getting these [JST 1.25 cables](htt
 
 The SV06 uses a Creality CR10 heatblock which supports MK8 threaded nozzles (including some M6 nozzles). The material is likely nickel-plated copper (_needs verification_).
 
-The heatblock is mounted onto the extruder assembly using 2 x M2.5 10mm [SHCS](./images/shcs.png).
+The heatblock is mounted onto the extruder assembly using `2 x M2.5 x 10mm` [SHCS](./images/shcs.png).
 
 <p align="center">
 <img src="./images/heatblock/heatblock-specs.png" width="500" alt='Heatblock spec'/>
@@ -102,6 +102,8 @@ Please see some more relevant details [here](heatblock.md).
 #### Aftermarket Options
 
 Any of [these](https://www.aliexpress.com/item/32969219551.html) heatblocks will do just fine, however, may require mounting bolts of different sizes.
+- The [Type C](https://s.click.aliexpress.com/e/_DEfTKT1) has 2mm and 3mm thermistor holes.
+- I have the `Type C`. The original mounting bolts will not be long enough, you will need [2 x M2.5 x 16mm FHCS](https://s.click.aliexpress.com/e/_DFDH4Hl) ([2 x M2.5 x 18mm FHCS](https://s.click.aliexpress.com/e/_DEbXHQ7) will also work).
 
 ### Heater Cartridge
 
