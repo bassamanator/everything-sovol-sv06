@@ -256,6 +256,15 @@ I haven't seen this particular board around, though it should be easy enough to 
 <img src="./images/psu/XT60H-M-2.jpg" width='200' alt=''/>
 <img src="./images/psu/xt60h-m-3.jpg" width='400' alt=''/>
 
+## Internal Fan Cable Connector
+
+| Printer   | Part   | Pitch  |
+| --------- | ------ | ------ |
+| SV06      | JST-XA | 2.54mm |
+| SV06 Plus | JST-XH | 2.54mm |
+
+<img src="./images/psu/psu-fan-connector.jpg" width="300" alt='PSU fan connector'/>
+
 # Support Me
 
 Please ⭐ star this repository!
