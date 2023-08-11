@@ -186,7 +186,13 @@ You need to make your own cable. I recommend getting these [JST 1.25 cables](htt
     <img src="./images/probe/probe.png" height="600" alt='probe'/>
 </p>
 
+| Part#         | Voltage | Type                  | Measuring Distance |
+| ------------- | ------- | --------------------- | ------------------ |
+| LJ12A3-4-Z-AX | 5V      | NPN (normally closed) | ~4mm               |
+
 ### Aftermarket Options
+
+[This probe: LJ12A3-4-Z-AX](https://s.click.aliexpress.com/e/_Dm2TIhh) looks like a good candidate because the part number is the same, however, the voltage starts off at `6V`. _Completely Untested_.
 
 I bought [this probe: LJ12A3-4-Z-BY](https://s.click.aliexpress.com/e/_DCbT0mD). It's dimensionally correct, however, _completely untested_!
 
