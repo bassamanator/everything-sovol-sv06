@@ -27,8 +27,8 @@ _Some of the links found on this page may be affiliate links._
 3. [Lead Screws and Rods](#lead-screws-and-rods)
    - [Lead Screws](#lead-screws)
    - [Linear Motion Guide Rods](#linear-motion-guide-rods)
+   - [Linear Bearings](#linear-bearings)
    - [Z Axis Couplers](#z-axis-couplers)
-   - _Linear Bearings_
 4. [PSU Related](#psu-related)
 
 - [Useful Prints](./parts/README.md)
@@ -82,7 +82,7 @@ The SV06 uses a ceramic heater cartridge.
 
 | Voltage | Watts | Dimensions | Connection       | Cable Length |
 | ------- | ----- | ---------- | ---------------- | ------------ |
-| 24V     | 40W   | 6x20mm     | JST PH 2.0 2-Pin | ~40mm        |
+| 24V     | 50W   | 6x20mm     | JST PH 2.0 2-Pin | ~40mm        |
 
 The heater cartridge is glued into the heatblock, a heatblock that heats to 300C. Although possible, it is inadvisable, and potentially dangerous to attempt removal.
 
@@ -186,7 +186,7 @@ You need to make your own cable. I recommend getting these [JST 1.25 cables](htt
     <img src="./images/probe/probe.png" height="600" alt='probe'/>
 </p>
 
-| Part#         | Voltage | Type                  | Measuring Distance |
+| Part          | Voltage | Type                  | Measuring Distance |
 | ------------- | ------- | --------------------- | ------------------ |
 | LJ12A3-4-Z-AX | 5V      | NPN (normally closed) | ~4mm               |
 
@@ -221,6 +221,14 @@ I haven't seen this particular board around, though it should be easy enough to 
 | X    | 2   | 355mm  | 8mm  | JXHSV06-03001-a |
 | Y    | 2   | 340mm  | 8mm  | JXHSV06-01012-a |
 | Z    | 2   | 400mm  | 8mm  | JXHSV06-02004-a |
+
+## Linear Bearings
+
+<img src="./images/linear-bearings2.webp" width="200" alt='Motherboard' />
+
+| Type           | Part  | Quantity               |
+| -------------- | ----- | ---------------------- |
+| Linear bearing | LM8UU | 8 (needs confirmation) |
 
 ## Z Axis Couplers
 
