@@ -227,9 +227,9 @@ I haven't seen this particular board around, though it should be easy enough to 
 
 <img src="./images/linear-bearings2.webp" width="200" alt='Motherboard' />
 
-| Type           | Part  | Quantity               |
-| -------------- | ----- | ---------------------- |
-| Linear bearing | LM8UU | 8 (needs confirmation) |
+| Type           | Part  | Quantity |
+| -------------- | ----- | -------- |
+| Linear bearing | LM8UU | 10       |
 
 ## Z Axis Couplers
 
