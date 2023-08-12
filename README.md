@@ -30,6 +30,7 @@ _Some of the links found on this page may be affiliate links._
    - [Linear Bearings](#linear-bearings)
    - [Z Axis Couplers](#z-axis-couplers)
 4. [PSU Related](#psu-related)
+5. [Stepper Motors](#stepper-motors)
 
 - [Useful Prints](./parts/README.md)
 - [How to Change Nozzles](./heatblock.md#changing-nozzles)
@@ -278,6 +279,15 @@ I haven't seen this particular board around, though it should be easy enough to 
 | SV06 Plus | JST-XH | 2.54mm |
 
 <img src="./images/psu/psu-fan-connector.jpg" width="300" alt='PSU fan connector'/>
+
+# Stepper Motors
+
+| Location   | Motor   | Height | Peak current                |
+| ---------- | ------- | ------ | --------------------------- |
+| Extruder   | Nema 42 | 22     | 0.8A (_needs verification_) |
+| X-Gantry   | Nema 42 | 34     | 1.3A                        |
+| Bed        | Nema 42 | 34     | 1.3A                        |
+| 2 x Z-axis | Nema 42 | 34     | 1.3A                        |
 
 # Support Me
 
