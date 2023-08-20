@@ -147,6 +147,10 @@ Any MK8 nozzle will do. You can even use a [V6 style nozzle](./images/nozzle/noz
 
 **Any** MK8 nozzle will be fine. I like [these](https://s.click.aliexpress.com/e/_DCDKb0n) because they're chunky.
 
+##### SV06 Plus
+
+A Creality K1 nozzle seems like a suitable replacement (_needs verification_), however, it is 0.5mm shorter than the stock variant. You have to make use of a washer/spacer to correct for this, see [Heatbreak, Aftermarket](#aftermarket-options-3) section.
+
 ## Filament Sensor
 
 I tested two random filament runout sensors that I had on hand. Both work just fine. It seems to me that any sensor with `VCC`, `Ground`, and `Signal` pins should work.
