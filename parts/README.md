@@ -21,3 +21,14 @@ Please use common sense regarding material choice. If you're printing something 
 
 - Source: @bassamanator
 - Download from [here](https://www.printables.com/model/431736-sovol-sv06plus-frame-mounting-solution-2040-extrus).
+
+## Part Cooling Fan Duct
+
+- This is a paid model.
+- There is a V2 of this model as well, but the performance according to the designer is the same. I prefer this version because it holds the duct more securely to the extruder assembly.
+- [Sovol SV06 fan duct 5015 - CFD optimized](https://cults3d.com/:1021376)
+
+## Sovol SV06/Plus Extrusion Seal
+
+- Source: @bassamanator
+- Download from [here](https://www.printables.com/model/385359-sovol-sv06plus-extrusion-seal).
