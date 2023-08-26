@@ -32,7 +32,7 @@ _Some of the links found on this page may be affiliate links._
 4. [PSU Related](#psu-related)
 5. [Stepper Motors](#stepper-motors)
 
-- [Initial Steps ⭐](./parts/README.md#initial-steps)
+- [Initial Steps ⭐](./initialsteps.md)
 - [Useful Prints](./parts/README.md#printed-parts)
 - [How to Change Nozzles](./heatblock.md#changing-nozzles)
 - [Support Me](#support-me)
