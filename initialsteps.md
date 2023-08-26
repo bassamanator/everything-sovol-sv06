@@ -5,7 +5,7 @@ Some of these steps might be seemingly unnecessary. For example, when I checked 
 1. Check every bolt on the printer.
 2. Check the filament gear grub screw. You can either check it periodically, or ideally, you should lock it in place with some low strength (or medium _at most_) threadlocker/loctite.
 3. Lube the motion system. SavageLau has a good [video](https://youtu.be/lUvaA4fJWH0?) on this. The linear bearings on this printer as shielded, preventing dirt and other things such as a sufficient amount of lube, from getting inside. Packing the bearings with lube is _necessary_. I recommend [MOBILUX EP 2](https://www.grainger.ca/en/product/GREASE%2CMOBILUX-EP-2%2CGR390/p/ESO122132?analytics=orderHistory).
-4. Adjust belt tension. This [video](https://user-images.githubusercontent.com/54855101/163674612-930d737d-0ab3-4056-a2b9-def2939db61f.mp4) is very helpful. You don't have to get very technical about this necessarily, just make sure the belts are firm, strummable like a guitar string. **Do not overtighten!**
+4. Adjust belt tension. This [video](https://user-images.githubusercontent.com/54855101/163674612-930d737d-0ab3-4056-a2b9-def2939db61f.mp4) is very helpful. Read more about it [here](https://docs.vorondesign.com/tuning/secondary_printer_tuning.html#belt-tension), but you don't necessarily have to get very technical about this. Just make sure the belts are firm, strummable like a guitar string. **Do not overtighten!**
 5. Make sure the gantry is square. This [video](https://youtu.be/N5qbWdmn0VM) is useful.
 6. [Put tape on the 5V pin](./README.md#put-tape-on-the-5v-pin).
 
