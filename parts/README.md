@@ -50,6 +50,10 @@ Some of these steps might be seemingly unnecessary. For example, when I checked 
 3. Lube the motion system. SavageLau has a good [video](https://youtu.be/lUvaA4fJWH0?) on this. The linear bearings on this printer as shielded, preventing dirt and other things such as a sufficient amount of lube, from getting inside. Packing the bearings with lube is _necessary_. I recommend [MOBILUX EP 2](https://www.grainger.ca/en/product/GREASE%2CMOBILUX-EP-2%2CGR390/p/ESO122132?analytics=orderHistory).
 4. Adjust belt tension. This [video](https://user-images.githubusercontent.com/54855101/163674612-930d737d-0ab3-4056-a2b9-def2939db61f.mp4) is very helpful. You don't have to get very technical about this necessarily, just make sure the belts are firm, strummable like a guitar string. **Do not overtighten!**
 5. Make sure the gantry is square. This [video](https://youtu.be/N5qbWdmn0VM) is useful.
-6. If you are going to connect the printer to any kind of computer, you would be wise to use a USB cable that has the 5V pin 'disabled'. Read all about it [here](https://community.octoprint.org/t/put-tape-on-the-5v-pin-why-and-how/13574). I find that [thermal tape](https://s.click.aliexpress.com/e/_DEqaSAr) is easier to install than electrical tape. When everything is taped up correctly, your LCD screen will not light up when you connect it to a computer (PC, Raspberry Pi, etc.) _while the printer is off_.
+6. [Put tape on the 5V pin](./README.md#put-tape-on-the-5v-pin).
+
+## Put tape on the 5V pin
+
+If you are going to connect the printer to any kind of computer, you would be wise to use a USB cable that has the 5V pin 'disabled'. Read all about it [here](https://community.octoprint.org/t/put-tape-on-the-5v-pin-why-and-how/13574). I find that [thermal tape](https://s.click.aliexpress.com/e/_DEqaSAr) is easier to install than electrical tape. When everything is taped up correctly, your LCD screen will not light up when you connect it to a computer (PC, Raspberry Pi, etc.) _while the printer is off_.
 
 <!-- $\small{\textcolor{darkturquoise}{\text{YOU ARE HERE}}}$ -->
