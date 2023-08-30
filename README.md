@@ -34,7 +34,7 @@ _Some of the links found on this page may be affiliate links._
 
 - [Initial Steps ⭐](./initialsteps.md)
 - [Useful Prints](./parts/README.md#printed-parts)
-- [How to Change Nozzles](./heatblock.md#changing-nozzles)
+- [How-to ...](./howto.md)
 - [Support Me](#support-me)
 - [Stay Up-to-Date](#stay-up-to-date)
 - [Links](#useful-links)
