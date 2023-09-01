@@ -4,7 +4,7 @@ Please use common sense regarding material choice. If you're printing something 
 
 ## Essential
 
-### Bed Cable Support
+### Bed Cable Extrusion Support
 
 - Designer: [@rogerquin_304616](https://www.printables.com/@rogerquin_304616)
 - Printer: SV06 / Plus
@@ -13,11 +13,9 @@ Please use common sense regarding material choice. If you're printing something 
 
 ### Bed Cable Strain Relief
 
-- Designer: [@rogerquin_304616](https://www.printables.com/@rogerquin_304616)
+- Designer: [@braga3dprint](https://www.printables.com/@braga3dprint)
 - Printer: SV06
-- [Source](https://www.printables.com/model/409660-cable-strain-relief-for-sovol-sv06-3d-printer)
-- If printing at <= 0.1mm layer height, [Download](./cable-strain-relief/SV06_heat_bed_cable_clamp_V1a.stl)
-- If printing at >= 0.2mm layer height, [Download](./cable-strain-relief/SV06_heat_bed_cable_clamp_V1.stl)
+- [Source](https://www.printables.com/model/452682-sovol-sv06-strain-relief/files)
 
 ## Useful
 
