@@ -9,13 +9,14 @@ Please use common sense regarding material choice. If you're printing something 
 - Designer: [@rogerquin_304616](https://www.printables.com/@rogerquin_304616)
 - Printer: SV06 / Plus
 - [Source](https://www.printables.com/model/409689-heatbed-cable-support-for-sovol-sv06-3d-printer)
-- [Download](SV06-heatbed-cable-support-V2.stl)
+- [Download](https://www.printables.com/model/409689-heatbed-cable-support-for-sovol-sv06-3d-printer/files)
 
 ### Bed Cable Strain Relief
 
 - Designer: [@braga3dprint](https://www.printables.com/@braga3dprint)
 - Printer: SV06
-- [Source](https://www.printables.com/model/452682-sovol-sv06-strain-relief/files)
+- [Source](https://www.printables.com/model/452682-sovol-sv06-strain-relief)
+- [Download](https://www.printables.com/model/452682-sovol-sv06-strain-relief/files)
 
 ## Useful
 

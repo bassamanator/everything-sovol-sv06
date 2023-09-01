@@ -294,6 +294,11 @@ I haven't seen this particular board around, though it should be easy enough to 
 | Bed        | Nema 42 | 34     | 1.3A                        |
 | 2 x Z-axis | Nema 42 | 34     | 1.3A                        |
 
+## Y-axis
+
+- In case you need to replace it, you can _probably_ fit a stepper motor with a height of 42mm.
+- A stepper motor with a height of 40mm will certainly fit.
+
 # Support Me
 
 Please ⭐ star this repository!
