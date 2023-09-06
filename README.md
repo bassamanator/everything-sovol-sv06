@@ -29,6 +29,7 @@ _Some of the links found on this page may be affiliate links._
    - [Linear Motion Guide Rods](#linear-motion-guide-rods)
    - [Linear Bearings](#linear-bearings)
    - [Z Axis Couplers](#z-axis-couplers)
+   - [Belts](#belts)
 4. [PSU Related](#psu-related)
 5. [Stepper Motors](#stepper-motors)
 
@@ -247,6 +248,18 @@ I haven't seen this particular board around, though it should be easy enough to 
 ### Aftermarket Options
 
 [Option 1](https://s.click.aliexpress.com/e/_DFQu2bD)
+
+## Belts
+
+_Coming soon._
+
+### Timing Belt Toothed Pulleys
+
+_Coming soon._
+
+### Timing Belt Smooth Idlers
+
+![Smooth Idlers](./images/smooth-idler.jpg)
 
 # PSU Related
 
