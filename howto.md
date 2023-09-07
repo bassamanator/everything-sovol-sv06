@@ -15,24 +15,31 @@ Here is the crucial points:
 
 ## Calibrate Esteps
 
-[This part](https://thangs.com/designer/MihaiDesigns/3d-model/Extruder%20E-steps%20calibration%20tool-47802) is useful in this process, though not necessary.
+Follow the instructions [here](https://www.klipper3d.org/Rotation_Distance.html#calibrating-rotation_distance-on-extruders). Below you will find the accompanying commands. To get an idea of what this process entails, you can search for `calibrate esteps` on Youtube and watch the video of your choosing.
+
+[This](https://thangs.com/designer/MihaiDesigns/3d-model/Extruder%20E-steps%20calibration%20tool-47802) free part is useful in this process, though not necessary. A ruler or caliper will do just fine.
 
 1. Prepare extruder
 
 ```
-M83
+M109 S225 ; set & wait for hotend temp 225C
+M83 ; Set E to Relative Positioning
 ```
 
-2. Extrude 100mm in 60 seconds
+2. Extrude 50mm at 1mm/second
 
 ```
-G1 E100 F100
+G1 E50 F60
 ```
 
-3. Formula
+3. Measure actual extruded amount. This can be greater than or less than 50mm.
+
+4. Formula
 
 ```
-New Config Value = Old Config Value * (Actual Extruded Amount/Target Extruded Amount)
+New Rotation Distance = Previous Rotation Distance * (Actual Extruded Amount/Requested Extrusion Amount)
 ```
 
-[Back](./README.md#heatblock)
+5. Repeat this process until Actual Extruded Amount = Requested Extrusion Amount. A variance of 1mm is acceptable, though the more accurate the better.
+
+[Back](./README.md#outline)
