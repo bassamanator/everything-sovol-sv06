@@ -34,9 +34,10 @@ _Some of the links found on this page may be affiliate links._
 5. [Stepper Motors](#stepper-motors)
 
 - [Initial Steps ⚡](./initialsteps.md)
-- [Useful Prints](./parts/README.md#printed-parts)
+- [Useful Prints 🏗️](./parts/README.md#printed-parts)
+- [Sample Prints 🍰](./images/prints/README.md)
 - [How-to 🛠️](./howto.md)
-- [Support Me](#support-me)
+- [Support Me ❤️](#support-me)
 - [Stay Up-to-Date](#stay-up-to-date)
 - [Links](#useful-links)
 
