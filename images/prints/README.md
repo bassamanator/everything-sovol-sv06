@@ -17,6 +17,6 @@
 <img src="./thinker-multi-colour2.jpg"/>
 <img src="./thinker-multi-colour3.jpg"/>
 <img src="./thinker-multi-colour4.jpg"/>
-<img src="./thinker-multi-colour5.jpg"/>
+<!-- <img src="./thinker-multi-colour5.jpg"/> -->
 <!-- <img src="./thinker-multi-colour6.jpg"/> -->
 <!-- <img src="./thinker-multi-colour7.jpg"/> -->
