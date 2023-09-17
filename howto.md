@@ -13,6 +13,8 @@ Here is the crucial points:
     <img src="./images/nozzle-gap.jpg" height="200" alt='hotend'/>
 </div>
 
+[Back](./README.md#outline)
+
 ## Calibrate Esteps
 
 Follow the instructions [here](https://www.klipper3d.org/Rotation_Distance.html#calibrating-rotation_distance-on-extruders). Below you will find the accompanying commands. To get an idea of what this process entails, you can search for `calibrate esteps` on Youtube and watch the video of your choosing.
@@ -41,5 +43,11 @@ New Rotation Distance = Previous Rotation Distance * (Actual Extruded Amount/Req
 ```
 
 5. Repeat this process until Actual Extruded Amount = Requested Extrusion Amount. A variance of 1mm is acceptable, though the more accurate the better.
+
+[Back](./README.md#outline)
+
+## Disable USB cable 5V pin
+
+If you are going to connect the printer to any kind of computer (PC, laptop, Raspberry Pi, etc.), you would be wise to use a USB cable that has the 5V pin 'disabled'. Read all about it [here](https://community.octoprint.org/t/put-tape-on-the-5v-pin-why-and-how/13574). I find that [thermal tape](https://s.click.aliexpress.com/e/_DEqaSAr) is easier to install than electrical tape. When everything is taped up correctly, the LCD screen will not light up when a powered off printer is connected to a computer.
 
 [Back](./README.md#outline)

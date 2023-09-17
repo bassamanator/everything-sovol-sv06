@@ -9,8 +9,6 @@ Some of these steps might be seemingly unnecessary. For example, when I checked 
 5. Make sure the gantry is square. This [video](https://youtu.be/N5qbWdmn0VM) is useful.
 6. [Retighten the nozzle](./howto.md#changing-nozzles), you will be sorry if you don't.
 7. [Calibrate Esteps](./howto.md#calibrate-esteps).
-8. If at any point you plan on connecting the printer to a computer, be sure to [put tape on the 5V pin](./README.md#put-tape-on-the-5v-pin).
+8. If at any point you plan on connecting the printer to a computer, be sure to [put tape on the 5V pin](./howto.md#disable-usb-cable-5v-pin).
 
-## Disable USB cable 5V pin
-
-If you are going to connect the printer to any kind of computer (PC, laptop, Raspberry Pi, etc.), you would be wise to use a USB cable that has the 5V pin 'disabled'. Read all about it [here](https://community.octoprint.org/t/put-tape-on-the-5v-pin-why-and-how/13574). I find that [thermal tape](https://s.click.aliexpress.com/e/_DEqaSAr) is easier to install than electrical tape. When everything is taped up correctly, the LCD screen will not light up when a powered off printer is connected to a computer.
+[Back](./README.md#outline)
