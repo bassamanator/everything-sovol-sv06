@@ -1,5 +1,7 @@
 # Initial Steps
 
+_\* These steps should be followed for <u>any</u> budget printer_
+
 Some of these steps might be seemingly unnecessary. For example, when I checked all the bolts on my SV06, all of them were perfectly tightened, but that might not always be the case with every unit. You have to decide what kind of experience you want to have with your printer. A printer that you have examined thoroughly is more reliable, and less likely to fail, than a printer that you have not put through these paces.
 
 1. Check that every bolt on the printer is adequately tightened. ⚠️ _Do not overtighten!_
