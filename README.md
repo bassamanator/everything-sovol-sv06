@@ -67,7 +67,10 @@ Revision: `SV06ZJB_V1.4`
 | ------------- | -------- |
 | Creality CR10 | Aluminum |
 
-The heatblock is mounted onto the extruder assembly using `2 x M2.5 x 10mm` [SHCS](./images/shcs.png).
+Notes:
+
+- The heatblock is mounted onto the extruder assembly using `2 x M2.5 x 10mm` [SHCS](./images/shcs.png).
+- Newer heatblocks appear to have a 3mm thermistor hole.
 
 <p align="center">
 <img src="./images/heatblock/heatblock-specs.png" width="500" alt='Heatblock spec'/>
