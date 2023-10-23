@@ -21,7 +21,7 @@ _Some of the links found on this page may be affiliate links._
      - [Nozzle](#nozzle)
    - [Filament Sensor](#filament-sensor)
    - [Probe](#probe)
-     - [induktive proximity (Stock)](#inductive-proximity)
+     - [induktive (Stock)](#inductive)
      - [Beacon](#beacon)
    - _Fans_
    - _Extruder_
@@ -195,7 +195,7 @@ You need to make your own cable. I recommend getting these [JST 1.25 cables](htt
 
 ## Probe
 
-## Inductive proximity
+## Inductive
 <p align="center">
     <img src="./images/probe/probe.png" height="600" alt='probe'/>
 </p>
@@ -285,7 +285,7 @@ speed: 100 # this is my fastest method without getting "spikes"
 horizontal_move_z: 5
 mesh_min: 20, 20
 mesh_max: 210, 205
-probe_count: 100,100 # change this to a number that is high enough but to too high. this works best for me
+probe_count: 100,100 # change this to a number that is high enough but not too high. This works best for me
 algorithm: bicubic
 fade_start: 1
 fade_end: 10
@@ -304,7 +304,7 @@ G28 X Y
 ```gcode
 G1 X105 Y105
 ```
-#### Move z to round about where the nozzle is close to the bed(not needed but makes it easier)
+#### Move z to round about where the nozzle is close to the bed (not needed but makes it easier)
 !!! WARNING !!!
 This command can make the z axis crash into the bed. Adjust the distance accordingly. If you feel uncomfortable with this command, don't use it. If you use it, you are responsible for any damage that might occur.
 
