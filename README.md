@@ -259,6 +259,7 @@ mesh_runs: 2
 ```
 
 make sure that `[safe_z_home]` is in a save position
+
 printer.cfg
 ```yaml
 [safe_z_home]
