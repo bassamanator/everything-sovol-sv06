@@ -187,6 +187,20 @@ The complete Klipper code to make this work is part of my [OSS Klipper Configura
 
 These can be found for very cheap (roughly $1.5) on Aliexpress and quite a bit more on Amazon (though still very affordable). [This](https://s.click.aliexpress.com/e/_DDLpdBX) is the one I bought. Here's another seemingly [viable option](https://s.click.aliexpress.com/e/_DDPNmDX).
 
+
+As alternative, [this one](https://www.aliexpress.com/item/32967361574.html) from Aliexpress can be conected directly to motherboard in the "Pre-set" port as shown on the photo of [Motherboard](#motherboard), zero modifications needed. All you need is to unplug existing cable that traces to extruder port. However, it's should not be pulled-high for this specific sensor:
+```
+[filament_switch_sensor filament_sensor]
+switch_pin: PA4
+pause_on_runout: True
+insert_gcode:
+    M117 Insert Detected
+runout_gcode:
+    M117 Runout Detected
+```
+
+### Cable How-
+
 ### Cable How-To
 
 You need to make your own cable. I recommend getting these [JST 1.25 cables](https://s.click.aliexpress.com/e/_DDORZ0D), and this [XH2.54 kit](https://s.click.aliexpress.com/e/_DlejPpj). You will also need a crimping tool such as the [Engineer PA-09](https://www.amazon.ca/gp/product/B002AVVO7K/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1).
