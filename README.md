@@ -308,7 +308,13 @@ G1 X105 Y105
 !!! WARNING !!!
 This command can make the z axis crash into the bed. Adjust the distance accordingly. If you feel uncomfortable with this command, don't use it. If you use it, you are responsible for any damage that might occur.
 
+The following command requires to have this in the printer.cfg set
 
+
+```yaml
+[force_move]
+enable_force_move: True
+```
 This command force moves the z axis down 5mm at a speed of 5mm/s
 ```gcode
 FORCE_MOVE STEPPER=stepper_z DISTANCE=-5 VELOCITY=5
