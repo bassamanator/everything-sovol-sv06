@@ -37,6 +37,7 @@ _Some of the links found on this page may be affiliate links._
 - [Useful Prints 🏗️](./parts/README.md#printed-parts)
 - [Sample Prints 🍰](./images/prints/README.md)
 - [How-to 🛠️](./howto.md)
+- [Modifications 🪚](https://github.com/bassamanator/everything-sovol-sv06/tree/mods)
 - [Support Me ❤️](#support-me)
 - [Stay Up-to-Date](#stay-up-to-date)
 - [Links](#useful-links)
