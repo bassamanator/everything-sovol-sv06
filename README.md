@@ -75,9 +75,9 @@ Everything found in this section is thanks to the user [1Euro7Cent](https://gith
 3. [Beacon probe normal](https://beacon3d.com/product/beacon/) ~80$
 4. [Beacon mount](./parts/beacon-mount-sovol-sv06-model_files)
 
-### How to
+### How-To
 
-1. Print the [beacon mount](./parts/beacon-mount-sovol-sv06-model_files)
+1. Print the [beacon mount](https://www.printables.com/model/459140-beacon-mount-sovol-sv06)
    - I recommend printing it in ABS or ASA because of the high temperature of the bed that could make the mount deform.
 2. Set up Klipper (won't go into detail here)
 3. Detach extruder plate from the extruder. (so that it is easier to work with)
