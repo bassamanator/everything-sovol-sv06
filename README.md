@@ -164,9 +164,14 @@ I tested two random filament runout sensors that I had on hand. Both work just f
 
 In order to get the filament sensor working, just make sure that the `VCC`, `Ground`, and `Signal` line up with the pins on the hotend PCB, port `P7`.
 
+<details>
+<summary>Alternate connection</summary>
+You can connect the sensor directly to the motherboard's `Pre-set port`. By default, this port has the `DET` cable connected to it.
+</details>
+
 In order to 'mount' the sensor while it's not in use, simply glue a small magnet onto the sensor. You can then stick the sensor onto the extruder motor. You might also want to tether the sensor to the extruder cable with a piece of string.
 
-Klipper filament configuration section:
+### Klipper configuration
 
 ```
 [filament_switch_sensor filament_sensor]
