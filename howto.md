@@ -1,5 +1,9 @@
 # How To...
 
+## Install Klipper
+
+Please find detailed instructions on the [One-Stop-Shop Klipper Configuration](https://github.com/bassamanator/Sovol-SV06-firmware) repository.
+
 ## Change Nozzles
 
 You can follow the instructions on [this page](https://help.prusa3d.com/article/changing-replacing-the-nozzle-mini_134235). Take extreme caution. Personally, I keep the hotend hot throughout the whole process.
@@ -52,7 +56,7 @@ New Rotation Distance = Previous Rotation Distance * (Actual Extruded Amount/Req
 
 If you are going to connect the printer to any kind of computer (PC, laptop, Raspberry Pi, etc.), you would be wise to use a USB cable that has the 5V pin 'disabled'. Read all about it [here](https://community.octoprint.org/t/put-tape-on-the-5v-pin-why-and-how/13574). I find that [thermal tape](https://s.click.aliexpress.com/e/_DEqaSAr) is easier to install than electrical tape. When everything is taped up correctly, the LCD screen will not light up when a powered off printer is connected to a computer.
 
-## Colour change in Prusa Slicer
+## Colour change in PrusaSlicer
 
 See [this video](https://youtu.be/MjOsKk7nB4s).
 
