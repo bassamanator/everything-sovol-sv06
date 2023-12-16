@@ -72,18 +72,22 @@ See [this video](https://youtu.be/ZfqeTzc3NpM).
 
 ## Silicon Mod
 
-_These are general notes on how to do this on the SV06_
+_These are general, unordered notes on how to do this on the SV06_
 
 Find out what this is about [here](https://www.schweinert.com/silicone-bed-level-mod-prusa-mk3/) and [here](https://github.com/bbbenji/PMSBLM#cons). TLDR you will be replacing 4 of the 5 Aluminum bed spacers with pieces of silicon.
 
-- This [printed part](https://www.printables.com/model/43629-prusa-mini-silicone-bed-leveling-mod-bed-tightenin) is essential, but you could do without it.
-- Your spacers should be about 12mm in length. This [jig](./parts/jig-hose-cutter-D10mm-L14mm.3mf) might be useful.
+- If you're the kind of user that trusts the `mechanical gantry calibration`/`G34` macro, as I do, then I recommend making sure that this calibration is done before starting. If not, then ignore this step.
+- This [printed part](https://www.printables.com/model/43629-prusa-mini-silicone-bed-leveling-mod-bed-tightenin) is essential, but technically not required.
+- Your spacers should be about 12mm in length. This [cutting jig](./parts/jig-hose-cutter-D10mm-L14mm.3mf) might be useful.
 - Use high temperature silicon (200C). ID: 4mm. OD: 10mm. _Others specifications will also work._
 - Keep **center** spacer as is, meaning, keep it metal, not silicon.
 - Replace corner spacers with silicon, 4 pieces.
 - Tighten the bed into place so that the gap between the bed and carriage is roughly uniform. _Don't stress about this too much, it's just a starting point._
 - Run `SCREWS_TILT_CALCULATE` in your dashboard (Klipper). I have no idea what the equivalent is for Marlin, but the links above might help.
+- ⚠️ The first time you run `SCREWS_TILT_CALCULATE`, be ready to do an **EMERGENCY STOP** in your dashboard in case there is a collision.
 - I recommend getting things pretty level **cold**, then finalize with the bed **hot**.
 - The prompt will tell you how much to rotate and the direction of rotation. I recommend you take a snapshot and just hit accept, because you will need to move your printhead out of the way to do the adjustments.
 
   ![SCREWS_TILT_CALCULATE](./images/screws_tilt_calculate.png)
+
+- Repeat the process until your satisfied. I'm fine with a deviation of 5 minutes.
