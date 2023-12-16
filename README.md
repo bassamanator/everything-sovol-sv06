@@ -1,12 +1,8 @@
 # Everything Sovol SV06
 
-A repository containing specifications of the Sovol SV06 3D printer parts, as well as links to aftermarket replacement parts.
+This branch contains `modifications` only.
 
-You can assume that all information herein is accurate unless stated otherwise.
-
-If you found this work useful, please consider buying me a [<img src="./images/misc/logo_white_stroke.png" height="20" alt='Ko-fi'/>](https://ko-fi.com/bassamanator).
-
-You can also contribute by making a [pull-request](https://github.com/bassamanator/everything-sovol-sv06/pulls), creating an [issue](https://github.com/bassamanator/everything-sovol-sv06/issues), or starting a [discussion](https://github.com/bassamanator/everything-sovol-sv06/discussions).
+Find specifications on the [main](https://github.com/bassamanator/everything-sovol-sv06) branch.
 
 _Some of the links found on this page may be affiliate links._
 
@@ -35,11 +31,6 @@ _Some of the links found on this page may be affiliate links._
 4. [PSU Related](#psu-related)
 5. [Stepper Motors](#stepper-motors)
 
-- [Initial Steps ⚡](./initialsteps.md)
-- [Useful Prints 🏗️](./parts/README.md#printed-parts)
-- [Sample Prints 🍰](./images/prints/README.md)
-- [How-to 🛠️](./howto.md)
-- [Modifications 🪚](https://github.com/bassamanator/everything-sovol-sv06/tree/mods)
 - [Support Me ❤️](#support-me)
 - [Stay Up-to-Date](#stay-up-to-date)
 - [Links](#useful-links)
