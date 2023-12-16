@@ -21,7 +21,8 @@ _Some of the links found on this page may be affiliate links._
      - [Nozzle](#nozzle)
    - [Filament Sensor](#filament-sensor)
    - [Probe](#probe)
-     - [Beacon 🎆](#beacon)
+     - [3DTouch ✨](#3dtouch)
+     - [Beacon ✨](#beacon)
    - _Fans_
    - _Extruder_
 2. [Motherboard](#motherboard)
@@ -61,11 +62,13 @@ _Some of the links found on this page may be affiliate links._
 
 ## Probe
 
+### 3DTouch
+
+![3D Touch](./images/probe/3dtouch.jpg)
+
 ### Beacon
 
-### Note
-
-Everything found in this section is thanks to the user [1Euro7Cent](https://github.com/1Euro7Cent). ⚠️ I, [bassamanator](https://github.com/bassamanator), have not checked anything in this section, proceed with caution and common sense.
+⚠️ Everything found in this section is thanks to the user [1Euro7Cent](https://github.com/1Euro7Cent). I, [bassamanator](https://github.com/bassamanator), have not checked anything in this section, proceed with caution and common sense.
 
 ### Requirements
 
