@@ -40,7 +40,7 @@ _Some of the links found on this page may be affiliate links._
 - [Modifications 🪚](https://github.com/bassamanator/everything-sovol-sv06/tree/mods)
 - [Support Me ❤️](#support-me)
 - [Stay Up-to-Date](#stay-up-to-date)
-- [Links](#useful-links)
+- [Links](#links)
 
 # Hotend
 
@@ -334,13 +334,7 @@ This repository is a work in progress. Watch for updates:
 
 <img src="./images/misc/githubstar.gif" width="500" alt='Github star'/>
 
-# Useful Links
-
-## Sovol Repositories
-
-- [SV06 Official Marlin Source Code](https://github.com/Sovol3d/Sv06-Source-Code)
-- [SV06 Official Models](https://github.com/Sovol3d/SV06-Fully-Open-Source)
-- [SV06 Plus Official Marlin Source Code and Models](https://github.com/Sovol3d/SV06-PLUS)
+# Links
 
 ## Useful Resources
 
@@ -348,5 +342,11 @@ This repository is a work in progress. Watch for updates:
 - [RP2040-Zero ADXL345 Connection Klipper](https://github.com/bassamanator/rp2040-zero-adxl345-klipper)
 - ⭐⭐⭐⭐⭐ [Ellis' Print Tuning Guide](https://ellis3dp.com/Print-Tuning-Guide)
 - [Simplify3D Print Quality Troubleshooting Guide](https://www.simplify3d.com/resources/print-quality-troubleshooting/)
+
+## Sovol Official Links
+
+- [SV06 Marlin Source Code](https://github.com/Sovol3d/Sv06-Source-Code)
+- [SV06 Models](https://github.com/Sovol3d/SV06-Fully-Open-Source)
+- [SV06 Plus Marlin Source Code and Models](https://github.com/Sovol3d/SV06-PLUS)
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/H2H0HIHTH)
