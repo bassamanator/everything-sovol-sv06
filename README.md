@@ -312,10 +312,10 @@ _Coming soon._
 
 | Location   | Motor   | Height | Peak current                |
 | ---------- | ------- | ------ | --------------------------- |
-| Extruder   | Nema 42 | 22     | 0.8A (_needs verification_) |
-| X-Gantry   | Nema 42 | 34     | 1.3A                        |
-| Bed        | Nema 42 | 34     | 1.3A                        |
-| 2 x Z-axis | Nema 42 | 34     | 1.3A                        |
+| Extruder   | Nema 17 | 22     | 0.8A (_needs verification_) |
+| X-Gantry   | Nema 17 | 34     | 1.3A                        |
+| Bed        | Nema 17 | 34     | 1.3A                        |
+| 2 x Z-axis | Nema 17 | 34     | 1.3A                        |
 
 ## Y-axis
 
