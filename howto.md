@@ -91,3 +91,7 @@ Find out what this is about [here](https://www.schweinert.com/silicone-bed-level
   ![SCREWS_TILT_CALCULATE](./images/screws_tilt_calculate.png)
 
 - Repeat the process until your satisfied. I'm fine with a deviation of 5 minutes.
+
+## Do Other Stuff
+
+You might find what you're looking for in the Sovol official tech support Youtube [playlist](https://youtube.com/playlist?list=PLR9JZRQ01t7lgsgEfBYiTzZKhnPCwkUZ6&si=Uo920LnMR7Sp3NTe).
