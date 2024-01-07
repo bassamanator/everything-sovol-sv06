@@ -95,3 +95,7 @@ Find out what this is about [here](https://www.schweinert.com/silicone-bed-level
 ## Do Other Stuff
 
 You might find what you're looking for in the Sovol official tech support Youtube [playlist](https://youtube.com/playlist?list=PLR9JZRQ01t7lgsgEfBYiTzZKhnPCwkUZ6&si=Uo920LnMR7Sp3NTe).
+
+## Quieten My Printer
+
+Are you sure your printer is loud? Here's a loud printer for [reference](https://youtu.be/sKfnZUF6sCs?si=elc64Y2rLS-43OFA).
