@@ -310,12 +310,12 @@ _Coming soon._
 
 # Stepper Motors
 
-| Location   | Motor   | Height | Peak current                |
-| ---------- | ------- | ------ | --------------------------- |
-| Extruder   | Nema 17 | 22     | 0.8A (_needs verification_) |
-| X-Gantry   | Nema 17 | 34     | 1.3A                        |
-| Bed        | Nema 17 | 34     | 1.3A                        |
-| 2 x Z-axis | Nema 17 | 34     | 1.3A                        |
+| Location   | Motor   | Height | Peak current                | Step angle |
+| ---------- | ------- | ------ | --------------------------- | ---------- |
+| Extruder   | Nema 17 | 22     | 0.8A (_needs verification_) | 1.8°       |
+| X-Gantry   | Nema 17 | 34     | 1.3A                        | 1.8°       |
+| Bed        | Nema 17 | 34     | 1.3A                        | 1.8°       |
+| 2 x Z-axis | Nema 17 | 34     | 1.3A                        | 1.8°       |
 
 ## Y-axis
 
