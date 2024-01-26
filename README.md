@@ -227,11 +227,15 @@ I haven't seen this particular board around, though it should be easy enough to 
 
 ## Lead Screws
 
+<img src="./images/lead-screw.png " width="300" alt='Lead screw' />
+
 | Axis | Qty | Length | Dia. | Lead | Pitch | Starts | Sovol Part #    |
 | ---- | --- | ------ | ---- | ---- | ----- | ------ | --------------- |
 | Z    | 2   | 376mm  | 8mm  | 4mm  | 2mm   | 2      | JXHSV06-02003-a |
 
-## Linear Motion Guide Rods
+## Lead Rods
+
+<img src="./images/lead-rod.webp " width="300" alt='Lead rod' />
 
 | Axis | Qty | Length | Dia. | Sovol Part #    |
 | ---- | --- | ------ | ---- | --------------- |
@@ -301,14 +305,16 @@ _Coming soon._
 
 ## Internal Fan Cable Connector
 
+<img src="./images/psu/psu-fan-connector.jpg" width="300" alt='PSU fan connector'/>
+
 | Printer   | Part   | Pitch  |
 | --------- | ------ | ------ |
 | SV06      | JST-XA | 2.54mm |
 | SV06 Plus | JST-XH | 2.54mm |
 
-<img src="./images/psu/psu-fan-connector.jpg" width="300" alt='PSU fan connector'/>
-
 # Stepper Motors
+
+<img src="./images/stepper-motor.webp" width="300" alt='Stepper motor'/>
 
 | Location   | Motor   | Height | Peak current                | Step angle |
 | ---------- | ------- | ------ | --------------------------- | ---------- |
