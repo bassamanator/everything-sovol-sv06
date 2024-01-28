@@ -299,9 +299,7 @@ _Coming soon._
 | --------- |
 | XT60H-M/F |
 
-<img src="./images/psu/XT60H-M-1.jpg" width='200' alt=''/>
-<img src="./images/psu/XT60H-M-2.jpg" width='200' alt=''/>
-<img src="./images/psu/xt60h-m-3.jpg" width='400' alt=''/>
+![PSU cable](./images/psu/xt60h-m-3-combined.jpg)
 
 ## Internal Fan Cable Connector
 
