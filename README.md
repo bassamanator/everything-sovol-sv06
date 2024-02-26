@@ -79,7 +79,7 @@ Notes:
 
 ### Aftermarket Options
 
-Any of [these](https://www.aliexpress.com/item/32969219551.html) heatblocks will do just fine, however, they _may_ require mounting bolts of different sizes.
+Any of [these](https://s.click.aliexpress.com/e/_Dle8W0N) heatblocks will do just fine, however, they _may_ require mounting bolts of different sizes.
 
 - The [Type C](https://s.click.aliexpress.com/e/_DEfTKT1) has 2mm and 3mm thermistor holes.
 - I have the `Type C`. The original mounting bolts will not be long enough, you will need [2 x M2.5 x 16mm FHCS](https://s.click.aliexpress.com/e/_DFDH4Hl) ([2 x M2.5 x 18mm FHCS](https://s.click.aliexpress.com/e/_DEbXHQ7) will also work).
