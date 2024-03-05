@@ -265,6 +265,8 @@ I haven't seen this particular board around, though it should be easy enough to 
 
 ## Belts
 
+<img src="./images/belt.png" width="300" alt='belt 6mm'/>
+
 | Brand | Part                 | Length | Width |
 | ----- | -------------------- | ------ | ----- |
 | GATES | PowerGrip GT2 LL-2GT | ~1.5m  | 6mm   |
