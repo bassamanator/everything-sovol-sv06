@@ -265,7 +265,17 @@ I haven't seen this particular board around, though it should be easy enough to 
 
 ## Belts
 
-_Coming soon._
+| Brand | Part                 | Length | Width |
+| ----- | -------------------- | ------ | ----- |
+| GATES | PowerGrip GT2 LL-2GT | ~1.5m  | 6mm   |
+
+### Aftermarket Options
+
+Two meters will handle both the Y and X axis.
+
+- [GATES](https://s.click.aliexpress.com/e/_DCMqSrf)
+- [POWGE](https://s.click.aliexpress.com/e/_Dei89Ul)
+  - I use these myself, they're top quality.
 
 ### Timing Belt Toothed Pulleys
 
@@ -330,7 +340,7 @@ _Coming soon._
 
 Please ⭐ star this repository!
 
-If you found my work useful, consider buying me a [<img src="./images/misc/logo_white_stroke.png" height="20" alt='Ko-fi'/>](https://ko-fi.com/bassamanator).
+Support [open source](https://en.wikipedia.org/wiki/Open_source), and buy me a [<img src="./images/misc/logo_white_stroke.png" height="20" alt='Ko-fi'/>](https://ko-fi.com/bassamanator).
 
 # Stay Up-to-Date
 
