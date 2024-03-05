@@ -328,13 +328,28 @@ _Coming soon._
 | ---------- | ------- | ------ | --------------------------- | ---------- |
 | Extruder   | Nema 17 | 22     | 0.8A (_needs verification_) | 1.8°       |
 | X-Gantry   | Nema 17 | 34     | 1.3A                        | 1.8°       |
-| Bed        | Nema 17 | 34     | 1.3A                        | 1.8°       |
-| 2 x Z-axis | Nema 17 | 34     | 1.3A                        | 1.8°       |
+| Y-Axis     | Nema 17 | 34     | 1.3A                        | 1.8°       |
+| 2 x Z-Axis | Nema 17 | 34     | 1.3A                        | 1.8°       |
 
-## Y-axis
+## Y-Axis
 
 - In case you need to replace it, you can _probably_ fit a stepper motor with a height of 42mm.
 - A stepper motor with a height of 40mm will certainly fit.
+
+## Aftermarket Options
+
+### Notes:
+
+- Adjusting the connectors will likely be required for any replacement stepper.
+- If using Klipper, it will be very easy to adapt the `printer.cfg` for these steppers.
+- If using Marlin, you will either have to compile your own firmware, or it might be possible to adjust the current via the menu.
+- The links for aftermarket options have good specifications, however, they are _completely untested_.
+
+### Options
+
+- [X-Gantry and Z-Axis](https://s.click.aliexpress.com/e/_DeYggkp)
+  - I would go for the 42mm height steppers myself.
+- [Y-Axis](https://s.click.aliexpress.com/e/_DelgWct)
 
 # Support Me
 
