@@ -100,6 +100,23 @@ You might find what you're looking for in the Sovol official tech support Youtub
 
 Are you sure your printer is loud? Here's a loud printer for [reference](https://youtu.be/sKfnZUF6sCs?si=elc64Y2rLS-43OFA).
 
+## Improve Bed Adhesion
+
+Contrary to popular belief, you should not be cleaning your build plate after each print. My build plate is washed every 6 weeks or so, if not less often. I use hair spray or glue stick from the dollar store. Take note of the hard core 3d printers like MirageC, Vez3D, etc., their build plates are usually covered in goop, **because it helps with bed adhesion!**
+
+### Here's what you do:
+
+1. Wash your PEI sheet with soap and water.
+2. Dry with lint free cloth.
+3. Wipe clean with rubbing alcohol.
+4. Let air dry for a bit, or use a hair dryer.
+5. Apply hair spray that you bought at the dollar store.
+   - Apply 5 or 6 even coats in one go.
+   - Do not lead the hair spray liquid accumulate in one area (usually it accumulates around the edges of the plate). You want the build area to be as flat as possible.
+   - Once somewhat dry, apply another 5 or 6 coats.
+
+You can follow the same process with glue stick, just keep in mind it's harder to get things even.
+
 # Random Questions
 
 ## What is input shaping?
