@@ -99,3 +99,12 @@ You might find what you're looking for in the Sovol official tech support Youtub
 ## Quieten My Printer
 
 Are you sure your printer is loud? Here's a loud printer for [reference](https://youtu.be/sKfnZUF6sCs?si=elc64Y2rLS-43OFA).
+
+# Random Questions
+
+## What is input shaping?
+
+I've found this to be the best visual explanation of input shaping:
+<a href="https://youtu.be/5fOhi-LL9dU?si=elFdOF6QNNVSGHhy" target="_blank">
+<img src="https://img.youtube.com/vi/5fOhi-LL9dU/hqdefault.jpg" alt="Watch the video" width="45%"/>
+</a>
