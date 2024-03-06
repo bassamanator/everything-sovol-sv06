@@ -4,19 +4,18 @@ Please use common sense regarding material choice. If you're printing something 
 
 ## Essential
 
-### Bed Cable Extrusion Support
+### Bed Cable Strain Relief at the Motherboard Enclosure
 
-- Designer: [@rogerquin_304616](https://www.printables.com/@rogerquin_304616)
-- Printer: SV06 / Plus
-- [Source](https://www.printables.com/model/409689-heatbed-cable-support-for-sovol-sv06-3d-printer)
-- [Download](https://www.printables.com/model/409689-heatbed-cable-support-for-sovol-sv06-3d-printer/files)
+I no longer recommend a part for this, as I did previously. I think it actually strains the cable which eventually leads to damaged wires, as I experienced.
 
-### Bed Cable Strain Relief
+### Bed Cable Strain Relief at the Bed
 
 - Designer: [@braga3dprint](https://www.printables.com/@braga3dprint)
 - Printer: SV06
 - [Source](https://www.printables.com/model/452682-sovol-sv06-strain-relief)
 - [Download](https://www.printables.com/model/452682-sovol-sv06-strain-relief/files)
+- I prefer the flat version as it perfectly supports the cable and doesn't interfere with my part cooling duct.
+- After you get the part in place, make sure your bed can move freely without the bed cable snagging at the printer base extrusions.
 
 ## Useful
 
