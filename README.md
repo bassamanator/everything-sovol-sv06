@@ -22,7 +22,7 @@ _Some of the links found on this page may be affiliate links._
    - [Filament Sensor](#filament-sensor)
    - [Probe](#probe)
    - _Fans_
-   - _Extruder_
+   - [Extruder](#extruder)
 2. [Motherboard](#motherboard)
 3. [Lead Screws and Rods](#lead-screws-and-rods)
    - [Lead Screws](#lead-screws)
@@ -212,6 +212,21 @@ You need to make your own cable. I recommend getting these [JST 1.25 cables](htt
 [This probe: LJ12A3-4-Z-AX](https://s.click.aliexpress.com/e/_Dm2TIhh) looks like a good candidate because the part number is the same, however, the voltage starts off at `6V`. _Completely Untested_.
 
 I bought [this probe: LJ12A3-4-Z-BY](https://s.click.aliexpress.com/e/_DCbT0mD). It's dimensionally correct, however, _completely untested_!
+
+## Extruder
+
+The parts from a DIY Orbiter V1.5 kit are suitable replacements for this extruder. I'll do a more thorough write-up eventually, but in the meantime, the only parts that differ in the Orbiter are:
+
+- the 3 pronged stem is longer in the Orbiter though that should not be an issue.
+- the flanged bearing has a larger OD in the Orbiter.
+- I did not compare the filament gears.
+
+After over 600 hours of print time, I saw hardly any wear on the gears in the extruder.
+
+### Aftermarket Options
+
+- [This](https://s.click.aliexpress.com/e/_DE2NRWZ) is the Orbiter kit that I bought and took measurements from, but any other V1.5 kit should do fine.
+- [Mellow](https://s.click.aliexpress.com/e/_DdpgYhT) has a great option as well.
 
 # Motherboard
 
