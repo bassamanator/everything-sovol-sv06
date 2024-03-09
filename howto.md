@@ -112,7 +112,7 @@ Contrary to popular belief, you should not be cleaning your build plate after ea
 4. Let air dry for a bit, or use a hair dryer.
 5. Apply hair spray that you bought at the dollar store.
    - Apply 5 or 6 even coats in one go.
-   - Do not lead the hair spray liquid accumulate in one area (usually it accumulates around the edges of the plate). You want the build area to be as flat as possible.
+   - Do not let the hair spray liquid accumulate in one area (usually it accumulates around the edges of the plate). You want the build area to be as flat as possible.
    - Once somewhat dry, apply another 5 or 6 coats.
 
 You can follow the same process with glue stick, just keep in mind it's harder to get things even.
