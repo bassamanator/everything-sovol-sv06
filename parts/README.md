@@ -1,4 +1,4 @@
-# Printed Parts
+# Printed Upgrades
 
 Please use common sense regarding material choice. If you're printing something that is touching the heated bed or near the hotend, use `PETG`/`ABS`/`other high temperature filament`.
 
