@@ -56,7 +56,7 @@ Revision: `SV06ZJB_V1.4`
 | P2    | Extruder motor   | JST 1.25mm 4-Pin | JST PH 2.0 6-Pin | Cable length 12cm |
 | P4    | Heater cartridge | JST PH 2.0 2-Pin |                  |                   |
 | P8    | Thermistor       | JST 1.25mm 2-Pin |                  |                   |
-| P6    | Probe            | JST 1.25mm 5-Pin |                  |                   |
+| P6    |             | JST 1.25mm 5-Pin |                  |                   |
 | P5    | Part cooling fan | JST 1.25mm 2-Pin |                  |                   |
 | P7    | Filament sensor  | JST 1.25mm 3-Pin |                  |                   |
 
@@ -201,6 +201,9 @@ You need to make your own cable. I recommend getting these [JST 1.25 cables](htt
 
 <p align="center">
     <img src="./images/probe/probe.png" height="600" alt='probe'/>
+</p>
+<p align="center">
+<img src="./images/probe/pinoutribboncable.png" height="400" alt='probe'/>
 </p>
 
 | Part          | Voltage | Type                  | Measuring Distance |
