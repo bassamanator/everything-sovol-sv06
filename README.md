@@ -202,6 +202,9 @@ You need to make your own cable. I recommend getting these [JST 1.25 cables](htt
 <p align="center">
     <img src="./images/probe/probe.png" height="600" alt='probe'/>
 </p>
+<p align="center">
+<img src="./images/probe/pinoutribboncable.png" height="400" alt='probe'/>
+</p>
 
 | Part          | Voltage | Type                  | Measuring Distance |
 | ------------- | ------- | --------------------- | ------------------ |
