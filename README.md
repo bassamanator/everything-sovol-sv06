@@ -203,7 +203,7 @@ You need to make your own cable. I recommend getting these [JST 1.25 cables](htt
     <img src="./images/probe/probe.png" height="600" alt='probe'/>
 </p>
 <p align="center">
-<img src="https://github.com/ElPainis/Fly-E3-Pro-v3/blob/fly-e3-pro-v3/misc/images/ymk4jvu6.png" height="400" alt='probe'/>
+<img src="./images/probe/pinoutribboncable.png" height="400" alt='probe'/>
 </p>
 
 | Part          | Voltage | Type                  | Measuring Distance |
