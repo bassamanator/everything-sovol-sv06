@@ -50,15 +50,17 @@ Revision: `SV06ZJB_V1.4`
 
 <img src="./images/hotend-pcb-labelled.png" width="800" alt='Hotend PCB'/>
 
-| Label | Connection       | PCB Connection   | Other Connection | Other info        |
-| ----- | ---------------- | ---------------- | ---------------- | ----------------- |
-| P3    | Coldend fan      | JST 1.25mm 2-Pin |                  |                   |
-| P2    | Extruder motor   | JST 1.25mm 4-Pin | JST PH 2.0 6-Pin | Cable length 12cm |
-| P4    | Heater cartridge | JST PH 2.0 2-Pin |                  |                   |
-| P8    | Thermistor       | JST 1.25mm 2-Pin |                  |                   |
-| P6    | Probe            | JST 1.25mm 5-Pin |                  |                   |
-| P5    | Part cooling fan | JST 1.25mm 2-Pin |                  |                   |
-| P7    | Filament sensor  | JST 1.25mm 3-Pin |                  |                   |
+| Label | Connection       | PCB Connection        | Other Connection | Other info        |
+| ----- | ---------------- | --------------------- | ---------------- | ----------------- |
+| P3    | Coldend fan      | Molex PicoBlade 2-Pin |                  |                   |
+| P2    | Extruder motor   | Molex PicoBlade 4-Pin | JST PH 2.0 6-Pin | Cable length 12cm |
+| P4    | Heater cartridge | JST PH 2.0 2-Pin      |                  |                   |
+| P8    | Thermistor       | Molex PicoBlade 2-Pin |                  |                   |
+| P6    | Probe            | Molex PicoBlade 5-Pin |                  |                   |
+| P5    | Part cooling fan | Molex PicoBlade 2-Pin |                  |                   |
+| P7    | Filament sensor  | Molex PicoBlade 3-Pin |                  |                   |
+
+\* _Note, Molex PicoBlade are often mischaracterized as JST 1.25mm (the name under which they are usually sold online)._
 
 ## Heatblock
 
@@ -104,9 +106,9 @@ You would have to buy a heater cartridge such as [this](https://s.click.aliexpre
 
 ### Thermistor
 
-| Material   | Dimensions | Connection       | Cable Length |
-| ---------- | ---------- | ---------------- | ------------ |
-| Glass-bead | 2mm        | JST 1.25mm 2-Pin | ~40mm        |
+| Material   | Dimensions | Connection            | Cable Length |
+| ---------- | ---------- | --------------------- | ------------ |
+| Glass-bead | 2mm        | Molex PicoBlade 2-Pin | ~40mm        |
 
 The thermistor is held in place with the help of a screw, and a generous amount of thermal adhesive. With the help of a heat-gun, and with great care, it can be removed.
 
