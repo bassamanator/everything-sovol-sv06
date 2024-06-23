@@ -26,6 +26,7 @@ _Some of the links found on this page may be affiliate links._
 2. [Motherboard](#motherboard)
 3. [Lead Screws and Rods](#lead-screws-and-rods)
    - [Lead Screws](#lead-screws)
+   - [POM Nuts](#pom-nuts)
    - [Linear Motion Guide Rods](#linear-motion-guide-rods)
    - [Linear Bearings](#linear-bearings)
    - [Z Axis Couplers](#z-axis-couplers)
@@ -252,6 +253,16 @@ I haven't seen this particular board around, though it should be easy enough to 
 | Axis | Qty | Length | Dia. | Lead | Pitch | Starts | Sovol Part #    |
 | ---- | --- | ------ | ---- | ---- | ----- | ------ | --------------- |
 | Z    | 2   | 376mm  | 8mm  | 4mm  | 2mm   | 2      | JXHSV06-02003-a |
+
+## POM Nuts
+
+| Material                           | Dia. | Lead | Pitch |
+| ---------------------------------- | ---- | ---- | ----- |
+| Polyoxymethylene (type of plastic) | 8mm  | 4mm  | 2mm   |
+
+### Aftermarket Options
+
+I have been unable to find _direct_ replacements. I am using [these](https://s.click.aliexpress.com/e/_DBMjmq3), however, you will likely have to drill out the attachment holes with a 3mm drill bit (very easy and quick modification). Please note that I'm not using them as anti-backlash nuts, so that portion of these parts will likely go unused.
 
 ## Lead Rods
 
