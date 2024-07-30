@@ -482,9 +482,9 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "extruderevolved.step",
+      "step": "../../../../../Downloads/extruderevolved.step",
       "svg": "",
-      "vrml": ""
+      "vrml": "../../../../../Downloads/user-defined-extruderevolved2.wrl"
     },
     "page_layout_descr_file": ""
   },
