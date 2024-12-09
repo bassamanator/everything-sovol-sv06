@@ -17,6 +17,7 @@ _Some of the links found on this page may be affiliate links._
      - [Nozzle](#nozzle)
    - [Filament Sensor](#filament-sensor)
    - [Probe](#probe)
+     - [CRTouch ✨](#crtouch)
      - [3DTouch ✨](#3dtouch)
      - [Beacon ✨](#beacon)
    - _Fans_
@@ -52,6 +53,23 @@ _Some of the links found on this page may be affiliate links._
 ## Filament Sensor
 
 ## Probe
+
+### CRTouch
+
+*This section is untested.*
+
+*Reported by Reddit user Filahert.*
+
+```
+[bltouch]
+sensor_pin:  ^PB1
+control_pin:  PB0
+x_offset: 30.0
+y_offset: 0.0
+speed: 20
+stow_on_each_sample = false
+samples: 1
+```
 
 ### 3DTouch
 
