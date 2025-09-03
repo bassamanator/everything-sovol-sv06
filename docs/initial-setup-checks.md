@@ -1,4 +1,8 @@
-# Initial Steps
+# Initial Setup Steps
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/bassamanator)
+
+_\* It is advisable to perform these steps in addition to the initial setup outlined in the printer's instructions when first building the printer_
 
 _\* These steps should be followed for <u>any</u> budget printer_
 
@@ -15,4 +19,4 @@ Some of these steps might be seemingly unnecessary. For example, when I checked 
 8. [Calibrate Esteps](./howto.md#calibrate-esteps).
 9. If at any point you plan on connecting the printer to a computer, be sure to [put tape on the 5V pin](./howto.md#disable-usb-cable-5v-pin).
 
-[Back](./README.md#outline)
+[Back](../README.md)

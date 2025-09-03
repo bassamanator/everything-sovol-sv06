@@ -1,5 +1,7 @@
 # How To...
 
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/bassamanator)
+
 ## Install Klipper
 
 Please find detailed instructions on the [One-Stop-Shop Klipper Configuration](https://github.com/bassamanator/Sovol-SV06-firmware) repository.
@@ -125,3 +127,5 @@ I've found this to be the best visual explanation of input shaping:
 <a href="https://youtu.be/5fOhi-LL9dU?si=elFdOF6QNNVSGHhy" target="_blank">
 <img src="https://img.youtube.com/vi/5fOhi-LL9dU/hqdefault.jpg" alt="Watch the video" width="45%"/>
 </a>
+
+[Back](../README.md)
