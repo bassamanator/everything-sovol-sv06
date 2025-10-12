@@ -15,8 +15,8 @@ Some of these steps might be seemingly unnecessary. For example, when I checked 
 5. Make sure the gantry is square. This [video](https://youtu.be/N5qbWdmn0VM) is useful.
 6. 1. Move the printhead and buildplate back and forth, through the _entire_ print range, by hand. Make sure there are no wires/cables that could obstruct the full, smooth range of motion.
    2. Now do the same again but using your printer's screen or dashboard (Mainsail, Fluidd, etc.).
-7. [Retighten the nozzle](./howto.md#changing-nozzles), you will be sorry if you don't.
-8. [Calibrate Esteps](./howto.md#calibrate-esteps).
-9. If at any point you plan on connecting the printer to a computer, be sure to [put tape on the 5V pin](./howto.md#disable-usb-cable-5v-pin).
+7. [Retighten the nozzle](./how-to.md#changing-nozzles), you will be sorry if you don't.
+8. [Calibrate Esteps](./how-to.md#calibrate-esteps).
+9. If at any point you plan on connecting the printer to a computer, be sure to [put tape on the 5V pin](./how-to.md#disable-usb-cable-5v-pin).
 
 [Back](../README.md)
