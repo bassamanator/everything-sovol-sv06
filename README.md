@@ -38,7 +38,7 @@ _Some of the links found on this page may be affiliate links._
    - [Belts](./docs/motion-system.md#belts)
    - [Stepper Motors](./docs/motion-system.md#stepper-motors)
 5. [Power Supply](./docs/power-supply.md)
-6. [How To's 🛠️](./docs/how-tos.md)
+6. [How To 🛠️](./docs/how-to.md)
 7. [Links](./docs/links.md)
 8. [Sample Prints 🍰](./images/prints/README.md)
 9. [Printed Upgrades 🏗️](./parts/README.md#printed-parts)
