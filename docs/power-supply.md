@@ -14,6 +14,10 @@
 
 ## PSU Switch
 
+| Brand   | Model                                                   |
+| ------- | ------------------------------------------------------- |
+| Unknown | IEC 60320 C14 power entry module (with switch and fuse) |
+
 <img src="../images/psu/switch.jpg" alt=''/>
 <img src="../images/psu/switch-wiring.jpg" alt=''/>
 <img src="../images/psu/switch-wiring-alt.jpg" alt=''/>
