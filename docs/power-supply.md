@@ -2,11 +2,17 @@
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/bassamanator)
 
+## PSU
+
 | Brand       | Model    | Wattage | Voltage | Amperage |
 | ----------- | -------- | ------- | ------- | -------- |
 | Cheng Liang | P360W24V | 360W    | 24V     | 15A      |
 
 <img src="../images/psu/psu-label.jpg" width='400px' alt=''/>
+
+### Aftermarket Options
+
+- If the PSU needs to be replaced, it's best to go with a higher end model such as the [Mean Well LRS-350-24](https://s.click.aliexpress.com/e/_c4kHyKtH). You will, however, need to print a housing solution for the Mean Well, such as [this one](https://www.printables.com/model/511342-meanwell-lrs-350-mounter-for-sovol-sv06).
 
 ## PSU Connections
 
