@@ -168,12 +168,11 @@ You need to make your own cable. I recommend getting these [JST 1.25 cables](htt
 
 | Part          | Voltage | Type                  | Measuring Distance |
 | ------------- | ------- | --------------------- | ------------------ |
-| LJ12A3-4-Z-AX | ~5V      | NPN (normally closed) | ~4mm               |
+| LJ12A3-4-Z-AX | ~5V     | NPN (normally closed) | ~4mm               |
 
 ### Aftermarket Options
 
-- I bought this probe [LJ12A3-4-ZAX](https://s.click.aliexpress.com/e/_olGmrWv). _Completely untested_.
-- Another option [LJ12A3-4-Z-AX](https://s.click.aliexpress.com/e/_Dm2TIhh). _Completely Untested_.
+- I bought this probe [LJ12A3-4-Z-AX](https://s.click.aliexpress.com/e/_Dm2TIhh) to keep as a backup. _Completely Untested_.
 
 ## Extruder
 
