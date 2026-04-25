@@ -2,6 +2,8 @@
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/bassamanator)
 
+[⏪ Back](../README.md)
+
 ## PCB
 
 Revision: `SV06ZJB_V1.4`

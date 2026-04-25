@@ -2,6 +2,8 @@
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/bassamanator)
 
+[⏪ Back](../README.md)
+
 _\* It is advisable to perform these steps in addition to the initial setup outlined in the printer's instructions when first building the printer_
 
 _\* These steps should be followed for <u>any</u> budget printer_

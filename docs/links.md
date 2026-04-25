@@ -2,6 +2,8 @@
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/bassamanator)
 
+[⏪ Back](../README.md)
+
 ## Sovol Official Links
 
 - [SV06 Marlin Source Code](https://github.com/Sovol3d/Sv06-Source-Code)

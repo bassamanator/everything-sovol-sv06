@@ -2,6 +2,8 @@
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/bassamanator)
 
+[⏪ Back](../README.md)
+
 ## PSU
 
 | Brand       | Model    | Wattage | Voltage | Amperage |

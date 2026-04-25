@@ -2,6 +2,8 @@
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/bassamanator)
 
+[⏪ Back](../README.md)
+
 <p align="center">
     <img src="../images/motherboard.png" width="400" alt='Motherboard' />
 </p>
