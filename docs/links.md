@@ -15,4 +15,4 @@
 - ⭐⭐⭐⭐⭐ [Ellis' Print Tuning Guide](https://ellis3dp.com/Print-Tuning-Guide)
 - [Simplify3D Print Quality Troubleshooting Guide](https://www.simplify3d.com/resources/print-quality-troubleshooting/)
 
-[Back](../README.md)
+[⏪ Back](../README.md)

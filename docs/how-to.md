@@ -21,7 +21,7 @@ Here is the crucial points:
     <img src="./images/nozzle-gap.jpg" height="200" alt='hotend'/>
 </div>
 
-[Back](./README.md#outline)
+[⏪ Back](./README.md#outline)
 
 ## Calibrate Esteps
 
@@ -52,7 +52,7 @@ New Rotation Distance = Previous Rotation Distance * (Actual Extruded Amount/Req
 
 5. Repeat this process until Actual Extruded Amount = Requested Extrusion Amount. A variance of 1mm is acceptable, though the more accurate the better.
 
-[Back](./README.md#outline)
+[⏪ Back](./README.md#outline)
 
 ## Disable USB cable 5V pin
 
@@ -70,7 +70,7 @@ See [this video](https://youtu.be/hBkTeXxcFi8).
 
 See [this video](https://youtu.be/ZfqeTzc3NpM).
 
-[Back](./README.md#outline)
+[⏪ Back](./README.md#outline)
 
 ## Silicon Mod
 
@@ -128,4 +128,4 @@ I've found this to be the best visual explanation of input shaping:
 <img src="https://img.youtube.com/vi/5fOhi-LL9dU/hqdefault.jpg" alt="Watch the video" width="45%"/>
 </a>
 
-[Back](../README.md)
+[⏪ Back](../README.md)

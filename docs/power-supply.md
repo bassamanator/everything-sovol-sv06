@@ -54,4 +54,4 @@
 | SV06      | JST-XA | 2.54mm |
 | SV06 Plus | JST-XH | 2.54mm |
 
-[Back](../README.md)
+[⏪ Back](../README.md)

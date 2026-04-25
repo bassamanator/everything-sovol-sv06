@@ -90,4 +90,4 @@ _Coming soon._
 - In case you need to replace it, you can _probably_ fit a stepper motor with a height of 42mm.
 - A stepper motor with a height of 40mm will certainly fit.
 
-[Back](../README.md)
+[⏪ Back](../README.md)

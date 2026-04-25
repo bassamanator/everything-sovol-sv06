@@ -19,4 +19,4 @@ Some of these steps might be seemingly unnecessary. For example, when I checked 
 8. [Calibrate Esteps](./how-to.md#calibrate-esteps).
 9. If at any point you plan on connecting the printer to a computer, be sure to [put tape on the 5V pin](./how-to.md#disable-usb-cable-5v-pin).
 
-[Back](../README.md)
+[⏪ Back](../README.md)
